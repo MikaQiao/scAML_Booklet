@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>7 Figure 7 | scAML Project</title>
+  <meta name="description" content="7 Figure 7 | scAML Project" />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="7 Figure 7 | scAML Project" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="7 Figure 7 | scAML Project" />
+  
+  
+  
+
+<meta name="author" content="Niu Qiao" />
+
+
+<meta name="date" content="2024-10-30" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="figure-6.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">scAML Booklet</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Figure 1</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#b-umap-distribution-across-aml"><i class="fa fa-check"></i><b>1.1</b> (b) UMAP distribution across AML</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#c-dotplot-of-marker-genes"><i class="fa fa-check"></i><b>1.2</b> (c) Dotplot of marker genes</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#d-bar-charts"><i class="fa fa-check"></i><b>1.3</b> (d) Bar charts</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#e-distribution-of-fusion-positive-cells"><i class="fa fa-check"></i><b>1.4</b> (e) Distribution of fusion positive cells</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#f-scatter-plots"><i class="fa fa-check"></i><b>1.5</b> (f) Scatter plots</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="figure-2.html"><a href="figure-2.html"><i class="fa fa-check"></i><b>2</b> Figure 2</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="figure-2.html"><a href="figure-2.html#b-umap-of-hc"><i class="fa fa-check"></i><b>2.1</b> (b) UMAP of HC</a></li>
+<li class="chapter" data-level="2.2" data-path="figure-2.html"><a href="figure-2.html#c-umap-distribution-across-aml"><i class="fa fa-check"></i><b>2.2</b> (c) UMAP distribution across AML</a></li>
+<li class="chapter" data-level="2.3" data-path="figure-2.html"><a href="figure-2.html#d-bar-charts-1"><i class="fa fa-check"></i><b>2.3</b> (d) Bar charts</a></li>
+<li class="chapter" data-level="2.4" data-path="figure-2.html"><a href="figure-2.html#e-fusion-distribution"><i class="fa fa-check"></i><b>2.4</b> (e) Fusion distribution</a></li>
+<li class="chapter" data-level="2.5" data-path="figure-2.html"><a href="figure-2.html#f-pseudotime-umap"><i class="fa fa-check"></i><b>2.5</b> (f) Pseudotime UMAP</a></li>
+<li class="chapter" data-level="2.6" data-path="figure-2.html"><a href="figure-2.html#g-ridge-plot-of-pseudotime"><i class="fa fa-check"></i><b>2.6</b> (g) Ridge plot of pseudotime</a></li>
+<li class="chapter" data-level="2.7" data-path="figure-2.html"><a href="figure-2.html#h-dot-plots-of-signature-scores"><i class="fa fa-check"></i><b>2.7</b> (h) Dot plots of signature scores</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="figure-3.html"><a href="figure-3.html"><i class="fa fa-check"></i><b>3</b> Figure 3</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="figure-3.html"><a href="figure-3.html#b-umap-distribution"><i class="fa fa-check"></i><b>3.1</b> (b) UMAP distribution</a></li>
+<li class="chapter" data-level="3.2" data-path="figure-3.html"><a href="figure-3.html#c-fusion-distribution"><i class="fa fa-check"></i><b>3.2</b> (c) Fusion distribution</a></li>
+<li class="chapter" data-level="3.3" data-path="figure-3.html"><a href="figure-3.html#d-bar-charts-2"><i class="fa fa-check"></i><b>3.3</b> (d) Bar charts</a></li>
+<li class="chapter" data-level="3.4" data-path="figure-3.html"><a href="figure-3.html#e-dot-plots-of-signature-scores"><i class="fa fa-check"></i><b>3.4</b> (e) Dot plots of signature scores</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="figure-4.html"><a href="figure-4.html"><i class="fa fa-check"></i><b>4</b> Figure 4</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="figure-4.html"><a href="figure-4.html#b-heatmap-of-primitive-cell-types"><i class="fa fa-check"></i><b>4.1</b> (b) Heatmap of primitive cell types</a></li>
+<li class="chapter" data-level="4.2" data-path="figure-4.html"><a href="figure-4.html#c-heatmap-of-mature-like-cell-types"><i class="fa fa-check"></i><b>4.2</b> (c) Heatmap of mature-like cell types</a></li>
+<li class="chapter" data-level="4.3" data-path="figure-4.html"><a href="figure-4.html#d-distribution-of-fusion-positive-cells"><i class="fa fa-check"></i><b>4.3</b> (d) Distribution of fusion positive cells</a></li>
+<li class="chapter" data-level="4.4" data-path="figure-4.html"><a href="figure-4.html#e-scatter-plot-of-correlation"><i class="fa fa-check"></i><b>4.4</b> (e) Scatter plot of correlation</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="figure-5.html"><a href="figure-5.html"><i class="fa fa-check"></i><b>5</b> Figure 5</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="figure-5.html"><a href="figure-5.html#a-bar-charts"><i class="fa fa-check"></i><b>5.1</b> (a) Bar charts</a></li>
+<li class="chapter" data-level="5.2" data-path="figure-5.html"><a href="figure-5.html#b-dot-plots-of-gsea-results"><i class="fa fa-check"></i><b>5.2</b> (b) Dot plots of GSEA results</a></li>
+<li class="chapter" data-level="5.3" data-path="figure-5.html"><a href="figure-5.html#c-e-gsea-plots-across-aml"><i class="fa fa-check"></i><b>5.3</b> (c-e) GSEA plots across AML</a></li>
+<li class="chapter" data-level="5.4" data-path="figure-5.html"><a href="figure-5.html#g-dot-plot-in-tnk-cells"><i class="fa fa-check"></i><b>5.4</b> (g) Dot plot in T/NK cells</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="figure-6.html"><a href="figure-6.html"><i class="fa fa-check"></i><b>6</b> Figure 6</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="figure-6.html"><a href="figure-6.html#circle-plots"><i class="fa fa-check"></i><b>6.1</b> Circle plots</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="figure-7.html"><a href="figure-7.html"><i class="fa fa-check"></i><b>7</b> Figure 7</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="figure-7.html"><a href="figure-7.html#b-umap-by-samples"><i class="fa fa-check"></i><b>7.1</b> (b) UMAP by samples</a></li>
+<li class="chapter" data-level="7.2" data-path="figure-7.html"><a href="figure-7.html#c-d-umap-by-annol1-annol2"><i class="fa fa-check"></i><b>7.2</b> (c-d) UMAP by annoL1 &amp; annoL2</a></li>
+<li class="chapter" data-level="7.3" data-path="figure-7.html"><a href="figure-7.html#e-alluvial-diagram-of-relapse-group"><i class="fa fa-check"></i><b>7.3</b> (e) Alluvial diagram of relapse group</a></li>
+<li class="chapter" data-level="7.4" data-path="figure-7.html"><a href="figure-7.html#f-alluvial-diagram-of-lcr-group"><i class="fa fa-check"></i><b>7.4</b> (f) Alluvial diagram of LCR group</a></li>
+<li class="chapter" data-level="7.5" data-path="figure-7.html"><a href="figure-7.html#g-h-umap-by-stage"><i class="fa fa-check"></i><b>7.5</b> (g-h) UMAP by stage</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">scAML Project</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="figure-7" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">7</span> Figure 7<a href="figure-7.html#figure-7" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><img src="ref/Figure7.jpg" width="100%" style="display: block; margin: auto;" />
+<strong>Fig.7 | Longitudinal analysis of BM compositions in t(8;21) AML patients with distinct outcomes frontline chemotherapy.</strong></p>
+<p><strong>a</strong>, Overview of serially collected BM aspirates from five t(8;21) AML patients. For each patient, pie charts illustrate the timing of sample collections relative to the initial diagnosis and the clinical blast count for each sample. The patients were grouped into those with relapsed disease or long-term complete remission.</br>
+<strong>b</strong>, UMAP plot of all 15 t(8;21) AML longitudinal samples without batch correction. Colors represent samples collected from different time points. The red dashed box outlines the bulk of leukemic cells.</br>
+<strong>c</strong>, UMAP visualization of 9 broad cell types (annoL1) from t(8;21) AML longitudinal samples. Colors indicate different cell types. Grey indicates low-quality cells. The total cell number is indicated at the bottom-left corner.</br>
+<strong>d</strong>, UMAP visualization of 33 detailed cell types (annoL2) from t(8;21) AML longitudinal samples, with colors representing level 2 cell type annotations. Grey indicates low-quality cells. The total number of sequenced cells is indicated in the bottom-left corner.</br>
+<strong>e</strong>, Alluvial diagram displaying the average proportions of annoL1 cell types at different times of sample collection. The average proportions of corresponding cell types of healthy BMs are shown at right. Cell types were color-coded based on annotations from panel c.</br>
+<strong>f</strong>, Alluvial diagram displaying the average proportions of annoL2 cell types at different times of sample collection. The average proportions of corresponding cell types of healthy BMs are shown at right. Cell types were color-coded based on annotations from panel d.</br>
+<strong>g</strong>, Top panel: UMAP facet distribution of the t(8;21) AML relapse group at initial diagnosis, complete remission, and relapse stages, with cell types color-coded based on annotations from panel d. Bottom panel: UMAP facet plots of cells expressing RUNX1::RUNX1T1 at these same stages, highlighting the distribution of fusion transcript-positive cells in the t(8;21) AML relapse group. Red dots indicate RUNX1::RUNX1T1-positive cells, while grey dots represent cells where fusion transcripts were undetected. The total number of cells at each longitudinal stage of t(8;21) AML is shown at the top-right corner. The number before the slash represents the count of RUNX1::RUNX1T1-positive cells, and the number after the slash represents the total number of cells.</br>
+<strong>h</strong>, Top panel: UMAP facet distribution of the t(8;21) AML long-term complete remission group at initial diagnosis, complete remission, and long-term complete remission stages, with cell types color-coded based on annotations from panel d. Bottom panel: UMAP facet plots of cells expressing RUNX1::RUNX1T1 at these same stages, highlighting the distribution of fusion transcript-positive cells in the t(8;21) AML relapse group. Red dots indicate RUNX1::RUNX1T1-positive cells, while grey dots represent cells where fusion transcripts were undetected. The total number of cells at each longitudinal stage of t(8;21) AML is shown at the top-right corner. The number before the slash represents the count of RUNX1::RUNX1T1-positive cells, and the number after the slash represents the total number of cells.</br></p>
+<div id="b-umap-by-samples" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> (b) UMAP by samples<a href="figure-7.html#b-umap-by-samples" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="figure-7.html#cb27-1" tabindex="-1"></a>my_color <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;#91B897&quot;</span>, <span class="st">&quot;#FCDD8D&quot;</span>, <span class="st">&quot;#E2CDDA&quot;</span>, <span class="st">&quot;#AFC9C6&quot;</span>, <span class="st">&quot;#E06C3E&quot;</span>, <span class="st">&quot;#CDD695&quot;</span>, <span class="st">&quot;#9188A4&quot;</span>, <span class="st">&quot;#FBA95E&quot;</span>, <span class="st">&quot;#D58E8E&quot;</span>, <span class="st">&quot;#8EB052&quot;</span>, </span>
+<span id="cb27-2"><a href="figure-7.html#cb27-2" tabindex="-1"></a>              <span class="st">&quot;#A6DDC2&quot;</span>, <span class="st">&quot;#46A39B&quot;</span>, <span class="st">&quot;#FBAD82&quot;</span>, <span class="st">&quot;#DFB7A9&quot;</span>, <span class="st">&quot;#D966A4&quot;</span>)</span>
+<span id="cb27-3"><a href="figure-7.html#cb27-3" tabindex="-1"></a></span>
+<span id="cb27-4"><a href="figure-7.html#cb27-4" tabindex="-1"></a>scAE.anno <span class="ot">&lt;-</span> <span class="fu">read_rds</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table1.3.scAE_anno.rds&quot;</span>))</span>
+<span id="cb27-5"><a href="figure-7.html#cb27-5" tabindex="-1"></a></span>
+<span id="cb27-6"><a href="figure-7.html#cb27-6" tabindex="-1"></a>p2 <span class="ot">&lt;-</span> <span class="fu">DimPlot</span>(scAE.anno, <span class="at">reduction =</span> <span class="st">&quot;umap&quot;</span>, <span class="at">group.by =</span> <span class="st">&quot;orig.ident&quot;</span>, <span class="at">label =</span> T, <span class="at">repel =</span> T, <span class="at">raster =</span> T, <span class="at">cols =</span> my_color, <span class="at">pt.size =</span> <span class="fl">0.5</span>)</span>
+<span id="cb27-7"><a href="figure-7.html#cb27-7" tabindex="-1"></a></span>
+<span id="cb27-8"><a href="figure-7.html#cb27-8" tabindex="-1"></a><span class="fu">pdf</span>(<span class="fu">paste0</span>(out_dir, <span class="st">&quot;Fig1.2.1.umap_cluster_raw.pdf&quot;</span>), <span class="at">width =</span> <span class="fl">5.5</span>, <span class="at">height =</span> <span class="fl">4.5</span>)</span>
+<span id="cb27-9"><a href="figure-7.html#cb27-9" tabindex="-1"></a>p2</span>
+<span id="cb27-10"><a href="figure-7.html#cb27-10" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+</div>
+<div id="c-d-umap-by-annol1-annol2" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> (c-d) UMAP by annoL1 &amp; annoL2<a href="figure-7.html#c-d-umap-by-annol1-annol2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="figure-7.html#cb28-1" tabindex="-1"></a>annoL1_color <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;#73C8B4&quot;</span>, <span class="st">&quot;#FFEA00&quot;</span>, <span class="st">&quot;#DBBBA9&quot;</span>, <span class="st">&quot;#FF40FF&quot;</span>, <span class="st">&quot;#E31A1C&quot;</span>, <span class="st">&quot;#6BAED6&quot;</span>, <span class="st">&quot;#A1D99B&quot;</span>, <span class="st">&quot;#FDBF6F&quot;</span>, <span class="st">&quot;#FB8072&quot;</span>, <span class="st">&quot;#D9D9D9&quot;</span>)</span>
+<span id="cb28-2"><a href="figure-7.html#cb28-2" tabindex="-1"></a>annoL1_name <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Progs&quot;</span>, <span class="st">&quot;Progs_Prolif&quot;</span>, <span class="st">&quot;Progs_BaEoMa&quot;</span>, <span class="st">&quot;Mono1&quot;</span>, <span class="st">&quot;HC_Pros&quot;</span>, <span class="st">&quot;T.NK&quot;</span>, <span class="st">&quot;B&quot;</span>, <span class="st">&quot;Myeloid&quot;</span>, <span class="st">&quot;Erythroid&quot;</span>, <span class="st">&quot;LowQual&quot;</span>)</span>
+<span id="cb28-3"><a href="figure-7.html#cb28-3" tabindex="-1"></a><span class="fu">names</span>(annoL1_color) <span class="ot">&lt;-</span> annoL1_name</span>
+<span id="cb28-4"><a href="figure-7.html#cb28-4" tabindex="-1"></a></span>
+<span id="cb28-5"><a href="figure-7.html#cb28-5" tabindex="-1"></a>annoL2_name <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb28-6"><a href="figure-7.html#cb28-6" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">&quot;Progs&quot;</span>, <span class="st">&quot;Progs_Prolif&quot;</span>, <span class="st">&quot;Progs_BaEoMa&quot;</span>, <span class="st">&quot;Mono1&quot;</span>),</span>
+<span id="cb28-7"><a href="figure-7.html#cb28-7" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">&quot;HSC&quot;</span>, <span class="st">&quot;LMPP&quot;</span>, <span class="st">&quot;CLP&quot;</span>, <span class="st">&quot;EMP&quot;</span>, <span class="st">&quot;GMP&quot;</span>, <span class="st">&quot;BaEoMa&quot;</span>),</span>
+<span id="cb28-8"><a href="figure-7.html#cb28-8" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">&quot;CD4Naive&quot;</span>, <span class="st">&quot;CD8Naive&quot;</span>, <span class="st">&quot;CD4EM&quot;</span>, <span class="st">&quot;Treg&quot;</span>, <span class="st">&quot;CD8EM&quot;</span>, <span class="st">&quot;T_prolif&quot;</span>, <span class="st">&quot;NK&quot;</span>, <span class="st">&quot;MAIT&quot;</span>),</span>
+<span id="cb28-9"><a href="figure-7.html#cb28-9" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">&quot;ProB&quot;</span>, <span class="st">&quot;PreB&quot;</span>, <span class="st">&quot;TransitionalB&quot;</span>, <span class="st">&quot;MatureB&quot;</span>, <span class="st">&quot;PlasmaB&quot;</span>),</span>
+<span id="cb28-10"><a href="figure-7.html#cb28-10" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">&quot;Pre_DC&quot;</span>, <span class="st">&quot;CD14Mono&quot;</span>, <span class="st">&quot;CD16Mono&quot;</span>, <span class="st">&quot;cDC&quot;</span>, <span class="st">&quot;pDC&quot;</span>, <span class="st">&quot;Macrophage&quot;</span>),</span>
+<span id="cb28-11"><a href="figure-7.html#cb28-11" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">&quot;EarlyE&quot;</span>, <span class="st">&quot;LateE&quot;</span>, <span class="st">&quot;ProgMK&quot;</span>, <span class="st">&quot;Platelet&quot;</span>, <span class="st">&quot;LowQual&quot;</span>))</span>
+<span id="cb28-12"><a href="figure-7.html#cb28-12" tabindex="-1"></a>annoL2_color <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb28-13"><a href="figure-7.html#cb28-13" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">&quot;#73C8B4&quot;</span>, <span class="st">&quot;#FFEA00&quot;</span>, <span class="st">&quot;#DBBBA9&quot;</span>, <span class="st">&quot;#FF40FF&quot;</span>),</span>
+<span id="cb28-14"><a href="figure-7.html#cb28-14" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">&quot;#E31A1C&quot;</span>, <span class="st">&quot;#B8D8E9&quot;</span>, <span class="st">&quot;#33A02C&quot;</span>, <span class="st">&quot;#B2DF8A&quot;</span>, <span class="st">&quot;#1F78B4&quot;</span>, <span class="st">&quot;#A65628&quot;</span>),</span>
+<span id="cb28-15"><a href="figure-7.html#cb28-15" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">&quot;#A6CEE3&quot;</span>, <span class="st">&quot;#45B4FF&quot;</span>, <span class="st">&quot;#FDDAEC&quot;</span>, <span class="st">&quot;#27ADAE&quot;</span>, <span class="st">&quot;#FEE090&quot;</span>, <span class="st">&quot;#F8766D&quot;</span>, <span class="st">&quot;#BEB9FF&quot;</span>, <span class="st">&quot;#1B9E77&quot;</span>),</span>
+<span id="cb28-16"><a href="figure-7.html#cb28-16" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">&quot;#A1D99B&quot;</span>, <span class="st">&quot;#D95F02&quot;</span>, <span class="st">&quot;#387CF0&quot;</span>, <span class="st">&quot;#73C8B4&quot;</span>, <span class="st">&quot;#FF9B4F&quot;</span>),</span>
+<span id="cb28-17"><a href="figure-7.html#cb28-17" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">&quot;#F1B6DA&quot;</span>, <span class="st">&quot;#FDBF6F&quot;</span>, <span class="st">&quot;#DE77AE&quot;</span>, <span class="st">&quot;#AB47BC&quot;</span>, <span class="st">&quot;#FF77F8&quot;</span>, <span class="st">&quot;#762A83&quot;</span>),</span>
+<span id="cb28-18"><a href="figure-7.html#cb28-18" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">&quot;#FB8072&quot;</span>, <span class="st">&quot;#23C8A1&quot;</span>, <span class="st">&quot;#C51B7D&quot;</span>, <span class="st">&quot;#E48792&quot;</span>, <span class="st">&quot;#D9D9D9&quot;</span>))</span>
+<span id="cb28-19"><a href="figure-7.html#cb28-19" tabindex="-1"></a><span class="fu">names</span>(annoL2_color) <span class="ot">&lt;-</span> annoL2_name</span>
+<span id="cb28-20"><a href="figure-7.html#cb28-20" tabindex="-1"></a></span>
+<span id="cb28-21"><a href="figure-7.html#cb28-21" tabindex="-1"></a></span>
+<span id="cb28-22"><a href="figure-7.html#cb28-22" tabindex="-1"></a>p1 <span class="ot">&lt;-</span> <span class="fu">DimPlot</span>(scAE.anno, <span class="at">reduction =</span> <span class="st">&quot;umap&quot;</span>, <span class="at">group.by =</span> <span class="st">&quot;annoL1&quot;</span>, </span>
+<span id="cb28-23"><a href="figure-7.html#cb28-23" tabindex="-1"></a>        <span class="at">label =</span> T, <span class="at">repel =</span> T, <span class="at">raster =</span> T, <span class="at">cols =</span> annoL1_color, <span class="at">pt.size =</span> <span class="fl">0.5</span>)</span>
+<span id="cb28-24"><a href="figure-7.html#cb28-24" tabindex="-1"></a>p2 <span class="ot">&lt;-</span> <span class="fu">DimPlot</span>(scAE.anno, <span class="at">reduction =</span> <span class="st">&quot;umap&quot;</span>, <span class="at">group.by =</span> <span class="st">&quot;annoL2&quot;</span>, </span>
+<span id="cb28-25"><a href="figure-7.html#cb28-25" tabindex="-1"></a>        <span class="at">label =</span> T, <span class="at">repel =</span> T, <span class="at">raster =</span> T, <span class="at">cols =</span> annoL2_color, <span class="at">pt.size =</span> <span class="fl">0.5</span>)</span>
+<span id="cb28-26"><a href="figure-7.html#cb28-26" tabindex="-1"></a></span>
+<span id="cb28-27"><a href="figure-7.html#cb28-27" tabindex="-1"></a><span class="fu">pdf</span>(<span class="fu">paste0</span>(out_dir, <span class="st">&quot;Fig1.3.1.umap_cluster_anno.pdf&quot;</span>), <span class="at">width =</span> <span class="dv">12</span>, <span class="at">height =</span> <span class="fl">4.5</span>)</span>
+<span id="cb28-28"><a href="figure-7.html#cb28-28" tabindex="-1"></a>p1 <span class="sc">+</span> p2 <span class="sc">+</span> p3</span>
+<span id="cb28-29"><a href="figure-7.html#cb28-29" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+</div>
+<div id="e-alluvial-diagram-of-relapse-group" class="section level2 hasAnchor" number="7.3">
+<h2><span class="header-section-number">7.3</span> (e) Alluvial diagram of relapse group<a href="figure-7.html#e-alluvial-diagram-of-relapse-group" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="figure-7.html#cb29-1" tabindex="-1"></a>dat1 <span class="ot">&lt;-</span> <span class="fu">read.xlsx</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table3.rmLQ_scAE_anno.stat.xlsx&quot;</span>), <span class="at">sheet =</span> <span class="dv">4</span>)[, <span class="dv">8</span><span class="sc">:</span><span class="dv">14</span>] <span class="sc">%&gt;%</span> </span>
+<span id="cb29-2"><a href="figure-7.html#cb29-2" tabindex="-1"></a>    <span class="fu">gather</span>(<span class="st">&quot;Stage&quot;</span>, <span class="st">&quot;Freq&quot;</span>, <span class="sc">-</span>seurat_clusters) <span class="sc">%&gt;%</span> </span>
+<span id="cb29-3"><a href="figure-7.html#cb29-3" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">Freq =</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(Freq), <span class="dv">0</span>, Freq),</span>
+<span id="cb29-4"><a href="figure-7.html#cb29-4" tabindex="-1"></a>         <span class="at">Stage =</span> <span class="fu">factor</span>(Stage, <span class="at">levels =</span> g_list),</span>
+<span id="cb29-5"><a href="figure-7.html#cb29-5" tabindex="-1"></a>         <span class="at">seurat_clusters =</span> <span class="fu">factor</span>(seurat_clusters, <span class="at">levels =</span> annoL1_name))  <span class="sc">%&gt;%</span></span>
+<span id="cb29-6"><a href="figure-7.html#cb29-6" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Group =</span> <span class="fu">ifelse</span>(Stage <span class="sc">%in%</span> g_list[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>], <span class="st">&quot;1RE&quot;</span>, <span class="st">&quot;2CR&quot;</span>))</span>
+<span id="cb29-7"><a href="figure-7.html#cb29-7" tabindex="-1"></a></span>
+<span id="cb29-8"><a href="figure-7.html#cb29-8" tabindex="-1"></a>p1 <span class="ot">&lt;-</span> dat1 <span class="sc">%&gt;%</span></span>
+<span id="cb29-9"><a href="figure-7.html#cb29-9" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Stage, <span class="at">y =</span> Freq, <span class="at">fill =</span> seurat_clusters, <span class="at">stratum =</span> seurat_clusters, <span class="at">alluvium =</span> seurat_clusters)) <span class="sc">+</span></span>
+<span id="cb29-10"><a href="figure-7.html#cb29-10" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">width =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb29-11"><a href="figure-7.html#cb29-11" tabindex="-1"></a>  <span class="fu">geom_alluvium</span>(<span class="at">width =</span> <span class="fl">0.6</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>, <span class="at">knot.pos =</span> <span class="dv">1</span><span class="sc">/</span><span class="dv">3</span>, <span class="at">knot.prop =</span> T) <span class="sc">+</span></span>
+<span id="cb29-12"><a href="figure-7.html#cb29-12" tabindex="-1"></a>  <span class="fu">geom_stratum</span>(<span class="at">width =</span> <span class="fl">0.6</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>, <span class="at">linewidth =</span> <span class="fl">0.1</span>) <span class="sc">+</span></span>
+<span id="cb29-13"><a href="figure-7.html#cb29-13" tabindex="-1"></a>  <span class="fu">facet_grid</span>(<span class="sc">~</span> Group, <span class="at">scales =</span> <span class="st">&quot;free&quot;</span>, <span class="at">space =</span> <span class="st">&quot;free&quot;</span>) <span class="sc">+</span></span>
+<span id="cb29-14"><a href="figure-7.html#cb29-14" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">name =</span> <span class="st">&quot;annoL1&quot;</span>, <span class="at">values =</span> annoL1_color) <span class="sc">+</span> </span>
+<span id="cb29-15"><a href="figure-7.html#cb29-15" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">&quot;Proportions&quot;</span>) <span class="sc">+</span> <span class="fu">theme</span>(<span class="at">legend.key.size =</span> <span class="fu">unit</span>(<span class="fl">0.4</span>, <span class="st">&quot;cm&quot;</span>))</span>
+<span id="cb29-16"><a href="figure-7.html#cb29-16" tabindex="-1"></a></span>
+<span id="cb29-17"><a href="figure-7.html#cb29-17" tabindex="-1"></a><span class="fu">pdf</span>(<span class="fu">paste0</span>(out_dir, <span class="st">&quot;Fig7e.pdf&quot;</span>), <span class="at">width =</span> <span class="dv">3</span>, <span class="at">height =</span> <span class="dv">4</span>)</span>
+<span id="cb29-18"><a href="figure-7.html#cb29-18" tabindex="-1"></a>p1</span>
+<span id="cb29-19"><a href="figure-7.html#cb29-19" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+</div>
+<div id="f-alluvial-diagram-of-lcr-group" class="section level2 hasAnchor" number="7.4">
+<h2><span class="header-section-number">7.4</span> (f) Alluvial diagram of LCR group<a href="figure-7.html#f-alluvial-diagram-of-lcr-group" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="figure-7.html#cb30-1" tabindex="-1"></a>dat3 <span class="ot">&lt;-</span> <span class="fu">read.xlsx</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table3.rmLQ_scAE_anno.stat.xlsx&quot;</span>), <span class="at">sheet =</span> <span class="dv">6</span>)[, <span class="dv">8</span><span class="sc">:</span><span class="dv">14</span>] <span class="sc">%&gt;%</span> </span>
+<span id="cb30-2"><a href="figure-7.html#cb30-2" tabindex="-1"></a>    <span class="fu">gather</span>(<span class="st">&quot;Stage&quot;</span>, <span class="st">&quot;Freq&quot;</span>, <span class="sc">-</span>seurat_clusters) <span class="sc">%&gt;%</span> </span>
+<span id="cb30-3"><a href="figure-7.html#cb30-3" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">Freq =</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(Freq), <span class="dv">0</span>, Freq),</span>
+<span id="cb30-4"><a href="figure-7.html#cb30-4" tabindex="-1"></a>         <span class="at">Stage =</span> <span class="fu">factor</span>(Stage, <span class="at">levels =</span> g_list),</span>
+<span id="cb30-5"><a href="figure-7.html#cb30-5" tabindex="-1"></a>         <span class="at">seurat_clusters =</span> <span class="fu">factor</span>(seurat_clusters, <span class="at">levels =</span> annoL2_name))  <span class="sc">%&gt;%</span></span>
+<span id="cb30-6"><a href="figure-7.html#cb30-6" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Group =</span> <span class="fu">ifelse</span>(Stage <span class="sc">%in%</span> g_list[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>], <span class="st">&quot;1RE&quot;</span>, <span class="st">&quot;2CR&quot;</span>))</span>
+<span id="cb30-7"><a href="figure-7.html#cb30-7" tabindex="-1"></a></span>
+<span id="cb30-8"><a href="figure-7.html#cb30-8" tabindex="-1"></a>p3 <span class="ot">&lt;-</span> dat3 <span class="sc">%&gt;%</span></span>
+<span id="cb30-9"><a href="figure-7.html#cb30-9" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Stage, <span class="at">y =</span> Freq, <span class="at">fill =</span> seurat_clusters, <span class="at">stratum =</span> seurat_clusters, <span class="at">alluvium =</span> seurat_clusters)) <span class="sc">+</span></span>
+<span id="cb30-10"><a href="figure-7.html#cb30-10" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">width =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb30-11"><a href="figure-7.html#cb30-11" tabindex="-1"></a>  <span class="fu">geom_alluvium</span>(<span class="at">width =</span> <span class="fl">0.6</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>, <span class="at">knot.pos =</span> <span class="dv">1</span><span class="sc">/</span><span class="dv">3</span>, <span class="at">knot.prop =</span> T) <span class="sc">+</span></span>
+<span id="cb30-12"><a href="figure-7.html#cb30-12" tabindex="-1"></a>  <span class="fu">geom_stratum</span>(<span class="at">width =</span> <span class="fl">0.6</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>, <span class="at">linewidth =</span> <span class="fl">0.01</span>) <span class="sc">+</span></span>
+<span id="cb30-13"><a href="figure-7.html#cb30-13" tabindex="-1"></a>  <span class="fu">facet_grid</span>(<span class="sc">~</span> Group, <span class="at">scales =</span> <span class="st">&quot;free&quot;</span>, <span class="at">space =</span> <span class="st">&quot;free&quot;</span>) <span class="sc">+</span></span>
+<span id="cb30-14"><a href="figure-7.html#cb30-14" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">name =</span> <span class="st">&quot;annoL2&quot;</span>, <span class="at">values =</span> annoL2_color) <span class="sc">+</span> </span>
+<span id="cb30-15"><a href="figure-7.html#cb30-15" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">&quot;Proportions&quot;</span>) <span class="sc">+</span> <span class="fu">theme</span>(<span class="at">legend.key.size =</span> <span class="fu">unit</span>(<span class="fl">0.4</span>, <span class="st">&quot;cm&quot;</span>))</span>
+<span id="cb30-16"><a href="figure-7.html#cb30-16" tabindex="-1"></a></span>
+<span id="cb30-17"><a href="figure-7.html#cb30-17" tabindex="-1"></a><span class="fu">pdf</span>(<span class="fu">paste0</span>(out_dir, <span class="st">&quot;Fig7f.pdf&quot;</span>), <span class="at">width =</span> <span class="dv">3</span>, <span class="at">height =</span> <span class="dv">4</span>)</span>
+<span id="cb30-18"><a href="figure-7.html#cb30-18" tabindex="-1"></a>p3</span>
+<span id="cb30-19"><a href="figure-7.html#cb30-19" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+</div>
+<div id="g-h-umap-by-stage" class="section level2 hasAnchor" number="7.5">
+<h2><span class="header-section-number">7.5</span> (g-h) UMAP by stage<a href="figure-7.html#g-h-umap-by-stage" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="figure-7.html#cb31-1" tabindex="-1"></a>scAE.anno.sub <span class="ot">&lt;-</span> scAE.anno <span class="sc">%&gt;%</span> <span class="fu">subset</span>(annoL1 <span class="sc">!=</span> <span class="st">&quot;LowQual&quot;</span>)</span>
+<span id="cb31-2"><a href="figure-7.html#cb31-2" tabindex="-1"></a></span>
+<span id="cb31-3"><a href="figure-7.html#cb31-3" tabindex="-1"></a>annoL1_color <span class="ot">&lt;-</span> annoL1_color[<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>]</span>
+<span id="cb31-4"><a href="figure-7.html#cb31-4" tabindex="-1"></a>annoL2_color <span class="ot">&lt;-</span> annoL2_color[<span class="dv">1</span><span class="sc">:</span><span class="dv">33</span>]</span>
+<span id="cb31-5"><a href="figure-7.html#cb31-5" tabindex="-1"></a></span>
+<span id="cb31-6"><a href="figure-7.html#cb31-6" tabindex="-1"></a><span class="fu">pdf</span>(<span class="fu">paste0</span>(out_dir, <span class="st">&quot;Fig7g-h_1.pdf&quot;</span>), <span class="at">width =</span> <span class="fl">13.5</span>, <span class="at">height =</span> <span class="dv">8</span>)</span>
+<span id="cb31-7"><a href="figure-7.html#cb31-7" tabindex="-1"></a><span class="fu">DimPlot</span>(scAE.anno.sub, <span class="at">reduction =</span> <span class="st">&quot;umap&quot;</span>, <span class="at">split.by =</span> <span class="st">&quot;group&quot;</span>, <span class="at">group.by =</span> <span class="st">&quot;annoL2&quot;</span>, <span class="at">cols =</span> annoL2_color, </span>
+<span id="cb31-8"><a href="figure-7.html#cb31-8" tabindex="-1"></a>        <span class="at">label =</span> F, <span class="at">repel =</span> T, <span class="at">raster =</span> T, <span class="at">pt.size =</span> <span class="fl">0.5</span>, <span class="at">ncol =</span> <span class="dv">3</span>)</span>
+<span id="cb31-9"><a href="figure-7.html#cb31-9" tabindex="-1"></a><span class="fu">dev.off</span>()</span>
+<span id="cb31-10"><a href="figure-7.html#cb31-10" tabindex="-1"></a></span>
+<span id="cb31-11"><a href="figure-7.html#cb31-11" tabindex="-1"></a></span>
+<span id="cb31-12"><a href="figure-7.html#cb31-12" tabindex="-1"></a>scAE.anno.sub2 <span class="ot">&lt;-</span> scAE.anno.sub</span>
+<span id="cb31-13"><a href="figure-7.html#cb31-13" tabindex="-1"></a>scAE.anno.sub2<span class="sc">@</span>meta.data <span class="ot">&lt;-</span> scAE.anno.sub2<span class="sc">@</span>meta.data <span class="sc">%&gt;%</span></span>
+<span id="cb31-14"><a href="figure-7.html#cb31-14" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">fus_group =</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(fus_group), <span class="st">&quot;NA&quot;</span>, fus_group))</span>
+<span id="cb31-15"><a href="figure-7.html#cb31-15" tabindex="-1"></a><span class="fu">pdf</span>(<span class="fu">paste0</span>(out_dir, <span class="st">&quot;Fig7g-h_2.pdf&quot;</span>), <span class="at">width =</span> <span class="dv">8</span>, <span class="at">height =</span> <span class="fl">5.5</span>)</span>
+<span id="cb31-16"><a href="figure-7.html#cb31-16" tabindex="-1"></a><span class="fu">DimPlot</span>(scAE.anno.sub2, <span class="at">reduction =</span> <span class="st">&quot;umap&quot;</span>, <span class="at">split.by =</span> <span class="st">&quot;group&quot;</span>, <span class="at">group.by =</span> <span class="st">&quot;fus_group&quot;</span>, <span class="at">ncol =</span> <span class="dv">3</span>, <span class="at">order =</span> T,</span>
+<span id="cb31-17"><a href="figure-7.html#cb31-17" tabindex="-1"></a>        <span class="at">label =</span> F, <span class="at">repel =</span> T, <span class="at">raster =</span> T, <span class="at">na.value =</span> <span class="st">&quot;#E0E0E0&quot;</span>, <span class="at">cols =</span> <span class="fu">c</span>(<span class="st">&quot;Positive&quot;</span> <span class="ot">=</span> <span class="st">&quot;#E71012&quot;</span>, <span class="st">&quot;NA&quot;</span> <span class="ot">=</span> <span class="st">&quot;#E0E0E0&quot;</span>), <span class="at">pt.size =</span> <span class="fl">0.5</span>)</span>
+<span id="cb31-18"><a href="figure-7.html#cb31-18" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="figure-6.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

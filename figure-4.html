@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>4 Figure 4 | scAML Project</title>
+  <meta name="description" content="4 Figure 4 | scAML Project" />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="4 Figure 4 | scAML Project" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="4 Figure 4 | scAML Project" />
+  
+  
+  
+
+<meta name="author" content="Niu Qiao" />
+
+
+<meta name="date" content="2024-10-30" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="figure-3.html"/>
+<link rel="next" href="figure-5.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">scAML Booklet</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Figure 1</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#b-umap-distribution-across-aml"><i class="fa fa-check"></i><b>1.1</b> (b) UMAP distribution across AML</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#c-dotplot-of-marker-genes"><i class="fa fa-check"></i><b>1.2</b> (c) Dotplot of marker genes</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#d-bar-charts"><i class="fa fa-check"></i><b>1.3</b> (d) Bar charts</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#e-distribution-of-fusion-positive-cells"><i class="fa fa-check"></i><b>1.4</b> (e) Distribution of fusion positive cells</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#f-scatter-plots"><i class="fa fa-check"></i><b>1.5</b> (f) Scatter plots</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="figure-2.html"><a href="figure-2.html"><i class="fa fa-check"></i><b>2</b> Figure 2</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="figure-2.html"><a href="figure-2.html#b-umap-of-hc"><i class="fa fa-check"></i><b>2.1</b> (b) UMAP of HC</a></li>
+<li class="chapter" data-level="2.2" data-path="figure-2.html"><a href="figure-2.html#c-umap-distribution-across-aml"><i class="fa fa-check"></i><b>2.2</b> (c) UMAP distribution across AML</a></li>
+<li class="chapter" data-level="2.3" data-path="figure-2.html"><a href="figure-2.html#d-bar-charts-1"><i class="fa fa-check"></i><b>2.3</b> (d) Bar charts</a></li>
+<li class="chapter" data-level="2.4" data-path="figure-2.html"><a href="figure-2.html#e-fusion-distribution"><i class="fa fa-check"></i><b>2.4</b> (e) Fusion distribution</a></li>
+<li class="chapter" data-level="2.5" data-path="figure-2.html"><a href="figure-2.html#f-pseudotime-umap"><i class="fa fa-check"></i><b>2.5</b> (f) Pseudotime UMAP</a></li>
+<li class="chapter" data-level="2.6" data-path="figure-2.html"><a href="figure-2.html#g-ridge-plot-of-pseudotime"><i class="fa fa-check"></i><b>2.6</b> (g) Ridge plot of pseudotime</a></li>
+<li class="chapter" data-level="2.7" data-path="figure-2.html"><a href="figure-2.html#h-dot-plots-of-signature-scores"><i class="fa fa-check"></i><b>2.7</b> (h) Dot plots of signature scores</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="figure-3.html"><a href="figure-3.html"><i class="fa fa-check"></i><b>3</b> Figure 3</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="figure-3.html"><a href="figure-3.html#b-umap-distribution"><i class="fa fa-check"></i><b>3.1</b> (b) UMAP distribution</a></li>
+<li class="chapter" data-level="3.2" data-path="figure-3.html"><a href="figure-3.html#c-fusion-distribution"><i class="fa fa-check"></i><b>3.2</b> (c) Fusion distribution</a></li>
+<li class="chapter" data-level="3.3" data-path="figure-3.html"><a href="figure-3.html#d-bar-charts-2"><i class="fa fa-check"></i><b>3.3</b> (d) Bar charts</a></li>
+<li class="chapter" data-level="3.4" data-path="figure-3.html"><a href="figure-3.html#e-dot-plots-of-signature-scores"><i class="fa fa-check"></i><b>3.4</b> (e) Dot plots of signature scores</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="figure-4.html"><a href="figure-4.html"><i class="fa fa-check"></i><b>4</b> Figure 4</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="figure-4.html"><a href="figure-4.html#b-heatmap-of-primitive-cell-types"><i class="fa fa-check"></i><b>4.1</b> (b) Heatmap of primitive cell types</a></li>
+<li class="chapter" data-level="4.2" data-path="figure-4.html"><a href="figure-4.html#c-heatmap-of-mature-like-cell-types"><i class="fa fa-check"></i><b>4.2</b> (c) Heatmap of mature-like cell types</a></li>
+<li class="chapter" data-level="4.3" data-path="figure-4.html"><a href="figure-4.html#d-distribution-of-fusion-positive-cells"><i class="fa fa-check"></i><b>4.3</b> (d) Distribution of fusion positive cells</a></li>
+<li class="chapter" data-level="4.4" data-path="figure-4.html"><a href="figure-4.html#e-scatter-plot-of-correlation"><i class="fa fa-check"></i><b>4.4</b> (e) Scatter plot of correlation</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="figure-5.html"><a href="figure-5.html"><i class="fa fa-check"></i><b>5</b> Figure 5</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="figure-5.html"><a href="figure-5.html#a-bar-charts"><i class="fa fa-check"></i><b>5.1</b> (a) Bar charts</a></li>
+<li class="chapter" data-level="5.2" data-path="figure-5.html"><a href="figure-5.html#b-dot-plots-of-gsea-results"><i class="fa fa-check"></i><b>5.2</b> (b) Dot plots of GSEA results</a></li>
+<li class="chapter" data-level="5.3" data-path="figure-5.html"><a href="figure-5.html#c-e-gsea-plots-across-aml"><i class="fa fa-check"></i><b>5.3</b> (c-e) GSEA plots across AML</a></li>
+<li class="chapter" data-level="5.4" data-path="figure-5.html"><a href="figure-5.html#g-dot-plot-in-tnk-cells"><i class="fa fa-check"></i><b>5.4</b> (g) Dot plot in T/NK cells</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="figure-6.html"><a href="figure-6.html"><i class="fa fa-check"></i><b>6</b> Figure 6</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="figure-6.html"><a href="figure-6.html#circle-plots"><i class="fa fa-check"></i><b>6.1</b> Circle plots</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="figure-7.html"><a href="figure-7.html"><i class="fa fa-check"></i><b>7</b> Figure 7</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="figure-7.html"><a href="figure-7.html#b-umap-by-samples"><i class="fa fa-check"></i><b>7.1</b> (b) UMAP by samples</a></li>
+<li class="chapter" data-level="7.2" data-path="figure-7.html"><a href="figure-7.html#c-d-umap-by-annol1-annol2"><i class="fa fa-check"></i><b>7.2</b> (c-d) UMAP by annoL1 &amp; annoL2</a></li>
+<li class="chapter" data-level="7.3" data-path="figure-7.html"><a href="figure-7.html#e-alluvial-diagram-of-relapse-group"><i class="fa fa-check"></i><b>7.3</b> (e) Alluvial diagram of relapse group</a></li>
+<li class="chapter" data-level="7.4" data-path="figure-7.html"><a href="figure-7.html#f-alluvial-diagram-of-lcr-group"><i class="fa fa-check"></i><b>7.4</b> (f) Alluvial diagram of LCR group</a></li>
+<li class="chapter" data-level="7.5" data-path="figure-7.html"><a href="figure-7.html#g-h-umap-by-stage"><i class="fa fa-check"></i><b>7.5</b> (g-h) UMAP by stage</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">scAML Project</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="figure-4" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">4</span> Figure 4<a href="figure-4.html#figure-4" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><img src="ref/Figure4.jpg" width="100%" style="display: block; margin: auto;" />
+<strong>Fig.4 | Gene-signature-based classification of malignant-like cells in AML subtypes.</strong></p>
+<p><strong>a</strong>, Schematics of the bioinformatics pipeline used to identify t(8;21)/t(15;17)/inv(16) AML subtype-specific gene signatures and classify malignant- or normal-like cells in leukemia BMs. Primitive and mature hematopoietic cell types from publicly available healthy scRNA-seq data were used as healthy controls (HC).</br>
+<strong>b</strong>, Heatmap displaying the expression of t(8;21)/t(15;17)/inv(16) AML subtype-specific genes across 229,305 single cells, ordered by level 1 cell annotations for primitive cell types.</br>
+<strong>c</strong>, Heatmap displaying the expression of t(8;21)/t(15;17)/inv(16) AML subtype-specific genes across 122,289 single cells, ordered by level 1 cell annotations for mature-like cell types.</br>
+<strong>d</strong>, Bar charts showing the percentage of cells classified as malignant-like in t(8;21) (left panel), t(15;17) (middle panel), and inv(16) (right panel) AML subtypes.</br>
+<strong>e</strong>, Scatterplot comparing clinical blast counts (y-axis) to the fraction of cells classified as malignant-like by gene-signature-based classification (x-axis). Each point corresponds to a specific AML sample.</br></p>
+<div id="b-heatmap-of-primitive-cell-types" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> (b) Heatmap of primitive cell types<a href="figure-4.html#b-heatmap-of-primitive-cell-types" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="figure-4.html#cb18-1" tabindex="-1"></a>res_pred <span class="ot">&lt;-</span> <span class="fu">read_rds</span>((<span class="fu">paste0</span>(in_dir, <span class="st">&quot;0.6.fus_pred/Table1.res_pred.351594.rds&quot;</span>))) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-2"><a href="figure-4.html#cb18-2" tabindex="-1"></a>    <span class="fu">rownames_to_column</span>(<span class="st">&quot;ID&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-3"><a href="figure-4.html#cb18-3" tabindex="-1"></a>    <span class="fu">left_join</span>(., <span class="fu">read_rds</span>((<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table0.scAML.merge.raw.azimuth.sub_meta.data.rds&quot;</span>))) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-4"><a href="figure-4.html#cb18-4" tabindex="-1"></a>                      <span class="fu">rownames_to_column</span>(<span class="st">&quot;ID&quot;</span>) <span class="sc">%&gt;%</span> dplyr<span class="sc">::</span><span class="fu">select</span>(ID, annoL1)) <span class="sc">%&gt;%</span></span>
+<span id="cb18-5"><a href="figure-4.html#cb18-5" tabindex="-1"></a>    <span class="fu">column_to_rownames</span>(<span class="st">&quot;ID&quot;</span>)</span>
+<span id="cb18-6"><a href="figure-4.html#cb18-6" tabindex="-1"></a>res_final <span class="ot">&lt;-</span> <span class="fu">read_rds</span>((<span class="fu">paste0</span>(in_dir, <span class="st">&quot;0.6.fus_pred/Table2.res_final.347846.rds&quot;</span>)))</span>
+<span id="cb18-7"><a href="figure-4.html#cb18-7" tabindex="-1"></a></span>
+<span id="cb18-8"><a href="figure-4.html#cb18-8" tabindex="-1"></a>scAML.prog.anno <span class="ot">&lt;-</span> <span class="fu">read_rds</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table1.3.scAML.prog_harmony.anno.rds&quot;</span>))</span>
+<span id="cb18-9"><a href="figure-4.html#cb18-9" tabindex="-1"></a>scAML.O.anno <span class="ot">&lt;-</span> <span class="fu">read_rds</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table1.3.scAML.O_harmony.anno.rds&quot;</span>))</span>
+<span id="cb18-10"><a href="figure-4.html#cb18-10" tabindex="-1"></a></span>
+<span id="cb18-11"><a href="figure-4.html#cb18-11" tabindex="-1"></a></span>
+<span id="cb18-12"><a href="figure-4.html#cb18-12" tabindex="-1"></a>my_idx1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;FAB&quot;</span>, <span class="st">&quot;SS.final_fus_group&quot;</span>, <span class="st">&quot;fus_group&quot;</span>, <span class="st">&quot;annoL1&quot;</span>)</span>
+<span id="cb18-13"><a href="figure-4.html#cb18-13" tabindex="-1"></a>my_idx2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;M2_score&quot;</span>, <span class="st">&quot;M3_score&quot;</span>, <span class="st">&quot;M4_score&quot;</span>, <span class="st">&quot;HC_score&quot;</span>)</span>
+<span id="cb18-14"><a href="figure-4.html#cb18-14" tabindex="-1"></a>my_s <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;M2AE_Malignant&quot;</span>, <span class="st">&quot;M2AE_Unclear&quot;</span>, <span class="st">&quot;M3PR_Malignant&quot;</span>, <span class="st">&quot;M3PR_Unclear&quot;</span>, </span>
+<span id="cb18-15"><a href="figure-4.html#cb18-15" tabindex="-1"></a>          <span class="st">&quot;M4CM_Malignant&quot;</span>, <span class="st">&quot;M4CM_Unclear&quot;</span>, <span class="st">&quot;HC_CD34_Unclear&quot;</span>, <span class="st">&quot;HC_BMMC_Unclear&quot;</span>)</span>
+<span id="cb18-16"><a href="figure-4.html#cb18-16" tabindex="-1"></a></span>
+<span id="cb18-17"><a href="figure-4.html#cb18-17" tabindex="-1"></a>anno_color <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;#73C8B4&quot;</span>, <span class="st">&quot;#E31A1C&quot;</span>, <span class="st">&quot;#A65628&quot;</span>, <span class="st">&quot;#FDBF6F&quot;</span>, <span class="st">&quot;#9970AB&quot;</span>, <span class="st">&quot;#C2A5CF&quot;</span>, <span class="st">&quot;#6BAED6&quot;</span>, <span class="st">&quot;#33A02C&quot;</span>, <span class="st">&quot;#FB8072&quot;</span>)</span>
+<span id="cb18-18"><a href="figure-4.html#cb18-18" tabindex="-1"></a>anno_name <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Progs&quot;</span>, <span class="st">&quot;Progs_Prolif&quot;</span>, <span class="st">&quot;Progs_BaEoMa&quot;</span>, <span class="st">&quot;Mono&quot;</span>, <span class="st">&quot;cDC&quot;</span>, <span class="st">&quot;pDC&quot;</span>, <span class="st">&quot;T.NK&quot;</span>, <span class="st">&quot;B&quot;</span>, <span class="st">&quot;Erythroid&quot;</span>)</span>
+<span id="cb18-19"><a href="figure-4.html#cb18-19" tabindex="-1"></a><span class="fu">names</span>(anno_color) <span class="ot">&lt;-</span> anno_name</span>
+<span id="cb18-20"><a href="figure-4.html#cb18-20" tabindex="-1"></a></span>
+<span id="cb18-21"><a href="figure-4.html#cb18-21" tabindex="-1"></a>my_colors <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fu">c</span>(<span class="st">&quot;M2AE&quot;</span> <span class="ot">=</span> <span class="st">&quot;#F8766D&quot;</span>, <span class="st">&quot;M3PR&quot;</span> <span class="ot">=</span> <span class="st">&quot;#00BA38&quot;</span>, <span class="st">&quot;M4CM&quot;</span> <span class="ot">=</span> <span class="st">&quot;#619CFF&quot;</span>, <span class="st">&quot;HC_CD34&quot;</span> <span class="ot">=</span> <span class="st">&quot;#C7E8FA&quot;</span>, <span class="st">&quot;HC_BMMC&quot;</span> <span class="ot">=</span> <span class="st">&quot;#C7E8FA&quot;</span>), </span>
+<span id="cb18-22"><a href="figure-4.html#cb18-22" tabindex="-1"></a>               <span class="fu">c</span>(<span class="st">&quot;Positive&quot;</span> <span class="ot">=</span> <span class="st">&quot;#E64B35&quot;</span>, <span class="st">&quot;UnDetected&quot;</span> <span class="ot">=</span> <span class="st">&quot;#F2F2F2&quot;</span>), </span>
+<span id="cb18-23"><a href="figure-4.html#cb18-23" tabindex="-1"></a>               <span class="fu">c</span>(<span class="st">&quot;Malignant&quot;</span> <span class="ot">=</span> <span class="st">&quot;#EFC000&quot;</span>, <span class="st">&quot;Unclear&quot;</span> <span class="ot">=</span> <span class="st">&quot;#0073C2&quot;</span>),</span>
+<span id="cb18-24"><a href="figure-4.html#cb18-24" tabindex="-1"></a>               anno_color)</span>
+<span id="cb18-25"><a href="figure-4.html#cb18-25" tabindex="-1"></a></span>
+<span id="cb18-26"><a href="figure-4.html#cb18-26" tabindex="-1"></a>my_clin <span class="ot">&lt;-</span> res_pred <span class="sc">%&gt;%</span> </span>
+<span id="cb18-27"><a href="figure-4.html#cb18-27" tabindex="-1"></a>  <span class="fu">rownames_to_column</span>(<span class="st">&quot;ID&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-28"><a href="figure-4.html#cb18-28" tabindex="-1"></a>  <span class="fu">filter</span>(ID <span class="sc">%in%</span> res_final<span class="sc">$</span>ID) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-29"><a href="figure-4.html#cb18-29" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">fus_group =</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(fus_group), <span class="st">&quot;UnDetected&quot;</span>, fus_group)) <span class="sc">%&gt;%</span></span>
+<span id="cb18-30"><a href="figure-4.html#cb18-30" tabindex="-1"></a>  <span class="fu">unite</span>(<span class="st">&quot;my_split&quot;</span>, <span class="fu">c</span>(FAB, SS.final_fus_group), <span class="at">sep =</span> <span class="st">&quot;_&quot;</span>, <span class="at">remove =</span> F) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-31"><a href="figure-4.html#cb18-31" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">my_split =</span> <span class="fu">factor</span>(my_split, <span class="at">levels =</span> my_s)) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-32"><a href="figure-4.html#cb18-32" tabindex="-1"></a>  <span class="fu">group_by</span>(FAB) <span class="sc">%&gt;%</span></span>
+<span id="cb18-33"><a href="figure-4.html#cb18-33" tabindex="-1"></a>  <span class="fu">arrange</span>(</span>
+<span id="cb18-34"><a href="figure-4.html#cb18-34" tabindex="-1"></a>    <span class="fu">case_when</span>(</span>
+<span id="cb18-35"><a href="figure-4.html#cb18-35" tabindex="-1"></a>      FAB <span class="sc">==</span> <span class="st">&quot;M2AE&quot;</span> <span class="sc">~</span> <span class="fu">desc</span>(M2_score),</span>
+<span id="cb18-36"><a href="figure-4.html#cb18-36" tabindex="-1"></a>      FAB <span class="sc">==</span> <span class="st">&quot;M3PR&quot;</span> <span class="sc">~</span> <span class="fu">desc</span>(M3_score),</span>
+<span id="cb18-37"><a href="figure-4.html#cb18-37" tabindex="-1"></a>      FAB <span class="sc">==</span> <span class="st">&quot;M4CM&quot;</span> <span class="sc">~</span> <span class="fu">desc</span>(M4_score),</span>
+<span id="cb18-38"><a href="figure-4.html#cb18-38" tabindex="-1"></a>      FAB <span class="sc">==</span> <span class="st">&quot;HC_CD34&quot;</span> <span class="sc">~</span> <span class="fu">desc</span>(HC_score),</span>
+<span id="cb18-39"><a href="figure-4.html#cb18-39" tabindex="-1"></a>      FAB <span class="sc">==</span> <span class="st">&quot;HC_BMMC&quot;</span> <span class="sc">~</span> <span class="fu">desc</span>(HC_score)</span>
+<span id="cb18-40"><a href="figure-4.html#cb18-40" tabindex="-1"></a>    )</span>
+<span id="cb18-41"><a href="figure-4.html#cb18-41" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb18-42"><a href="figure-4.html#cb18-42" tabindex="-1"></a>  <span class="fu">arrange</span>(my_split, annoL1) <span class="sc">%&gt;%</span> <span class="fu">column_to_rownames</span>(<span class="st">&quot;ID&quot;</span>)</span>
+<span id="cb18-43"><a href="figure-4.html#cb18-43" tabindex="-1"></a></span>
+<span id="cb18-44"><a href="figure-4.html#cb18-44" tabindex="-1"></a>idx.cells1 <span class="ot">&lt;-</span> <span class="fu">intersect</span>(<span class="fu">rownames</span>(my_clin), <span class="fu">colnames</span>(scAML.prog.anno))</span>
+<span id="cb18-45"><a href="figure-4.html#cb18-45" tabindex="-1"></a>idx.cells2 <span class="ot">&lt;-</span> <span class="fu">intersect</span>(<span class="fu">rownames</span>(my_clin), <span class="fu">colnames</span>(scAML.O.anno))</span>
+<span id="cb18-46"><a href="figure-4.html#cb18-46" tabindex="-1"></a></span>
+<span id="cb18-47"><a href="figure-4.html#cb18-47" tabindex="-1"></a>my_clin.prog <span class="ot">&lt;-</span> my_clin[idx.cells1, ]</span>
+<span id="cb18-48"><a href="figure-4.html#cb18-48" tabindex="-1"></a>my_clin.O <span class="ot">&lt;-</span> my_clin[idx.cells2, ]</span>
+<span id="cb18-49"><a href="figure-4.html#cb18-49" tabindex="-1"></a></span>
+<span id="cb18-50"><a href="figure-4.html#cb18-50" tabindex="-1"></a></span>
+<span id="cb18-51"><a href="figure-4.html#cb18-51" tabindex="-1"></a><span class="do">#########</span></span>
+<span id="cb18-52"><a href="figure-4.html#cb18-52" tabindex="-1"></a>my_idx82 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;RUNX1T1&quot;</span>, <span class="st">&quot;OBI1-AS1&quot;</span>, <span class="st">&quot;PCDH15&quot;</span>, <span class="st">&quot;CAV1&quot;</span>, <span class="st">&quot;POU4F1&quot;</span>, <span class="st">&quot;CACNA2D2&quot;</span>, <span class="st">&quot;MYO18B&quot;</span>, <span class="st">&quot;BMP3&quot;</span>, <span class="st">&quot;CPNE7&quot;</span>, <span class="st">&quot;EPHA3&quot;</span>, <span class="st">&quot;HS3ST4&quot;</span>, <span class="st">&quot;ROBO1&quot;</span>, <span class="st">&quot;AGBL4&quot;</span>, <span class="st">&quot;DNAH8&quot;</span>, <span class="st">&quot;ELAVL4&quot;</span>, <span class="st">&quot;EPGN&quot;</span>, <span class="st">&quot;VLDLR&quot;</span>, <span class="st">&quot;KIF21A&quot;</span>, <span class="st">&quot;PKP2&quot;</span>, <span class="st">&quot;CD226&quot;</span>, <span class="st">&quot;SAMD3&quot;</span>, <span class="st">&quot;IGSF1&quot;</span>, <span class="st">&quot;KCNK12&quot;</span>, <span class="st">&quot;VLDLR-AS1&quot;</span>, <span class="st">&quot;TLR10&quot;</span>, </span>
+<span id="cb18-53"><a href="figure-4.html#cb18-53" tabindex="-1"></a>             <span class="st">&quot;PID1&quot;</span>, <span class="st">&quot;NNMT&quot;</span>, <span class="st">&quot;PPARG&quot;</span>, <span class="st">&quot;LIN7A&quot;</span>, <span class="st">&quot;IGFBP4&quot;</span>, <span class="st">&quot;LGALS12&quot;</span>, <span class="st">&quot;GXYLT2&quot;</span>, <span class="st">&quot;PTGDS&quot;</span>, <span class="st">&quot;CLTCL1&quot;</span>, <span class="st">&quot;GNLY&quot;</span>, <span class="st">&quot;PHLDA2&quot;</span>, <span class="st">&quot;ADAMTS17&quot;</span>, <span class="st">&quot;TNFRSF4&quot;</span>, <span class="st">&quot;GPC6&quot;</span>, <span class="st">&quot;SLPI&quot;</span>, <span class="st">&quot;DEFB1&quot;</span>, <span class="st">&quot;S100P&quot;</span>, <span class="st">&quot;ZNF98&quot;</span>, <span class="st">&quot;BPI&quot;</span>, <span class="st">&quot;KIAA1217&quot;</span>, <span class="st">&quot;SCN1A-AS1&quot;</span>, <span class="st">&quot;TNFRSF18&quot;</span>, </span>
+<span id="cb18-54"><a href="figure-4.html#cb18-54" tabindex="-1"></a>             <span class="st">&quot;FCER2&quot;</span>, <span class="st">&quot;AK5&quot;</span>, <span class="st">&quot;RXFP1&quot;</span>, <span class="st">&quot;NT5E&quot;</span>, <span class="st">&quot;CHI3L1&quot;</span>, <span class="st">&quot;FGFR2&quot;</span>, <span class="st">&quot;MEGF10&quot;</span>, <span class="st">&quot;CLEC7A&quot;</span>, </span>
+<span id="cb18-55"><a href="figure-4.html#cb18-55" tabindex="-1"></a>             <span class="st">&quot;BEX5&quot;</span>, <span class="st">&quot;NKAIN2&quot;</span>, <span class="st">&quot;AVP&quot;</span>, <span class="st">&quot;CHRM3&quot;</span>, <span class="st">&quot;BEX2&quot;</span>, <span class="st">&quot;ALDH1A1&quot;</span>, <span class="st">&quot;HMGA2&quot;</span>, <span class="st">&quot;HOXA9&quot;</span>, <span class="st">&quot;MME&quot;</span>, <span class="st">&quot;SEMA3C&quot;</span>, <span class="st">&quot;PAWR&quot;</span>, <span class="st">&quot;FAM169A&quot;</span>, <span class="st">&quot;CYYR1&quot;</span>, <span class="st">&quot;DPPA4&quot;</span>, <span class="st">&quot;SCML4&quot;</span>, <span class="st">&quot;IL12RB2&quot;</span>, <span class="st">&quot;APOC1&quot;</span>, <span class="st">&quot;ZNF385D-AS2&quot;</span>, <span class="st">&quot;MYCT1&quot;</span>, <span class="st">&quot;NPY&quot;</span>, <span class="st">&quot;DEPP1&quot;</span>, <span class="st">&quot;MPPED2&quot;</span>, <span class="st">&quot;GPR176&quot;</span>, <span class="st">&quot;LEF1-AS1&quot;</span>, <span class="st">&quot;ID3&quot;</span>, <span class="st">&quot;FAM43A&quot;</span>, <span class="st">&quot;COL5A1&quot;</span>)</span>
+<span id="cb18-56"><a href="figure-4.html#cb18-56" tabindex="-1"></a>my_idx34 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;RUNX1T1&quot;</span>, <span class="st">&quot;OBI1-AS1&quot;</span>, <span class="st">&quot;SIPA1L2&quot;</span>, <span class="st">&quot;PRAME&quot;</span>, <span class="st">&quot;IL5RA&quot;</span>, </span>
+<span id="cb18-57"><a href="figure-4.html#cb18-57" tabindex="-1"></a>             <span class="st">&quot;CTSG&quot;</span>, <span class="st">&quot;PCBP3&quot;</span>, <span class="st">&quot;BMERB1&quot;</span>, <span class="st">&quot;SCN9A&quot;</span>, </span>
+<span id="cb18-58"><a href="figure-4.html#cb18-58" tabindex="-1"></a>             <span class="st">&quot;MN1&quot;</span>, <span class="st">&quot;DNTT&quot;</span>, <span class="st">&quot;UMODL1&quot;</span>, <span class="st">&quot;RXFP1&quot;</span>, <span class="st">&quot;ADARB2&quot;</span>, <span class="st">&quot;ZNF521&quot;</span>, <span class="st">&quot;MEIS1&quot;</span>, <span class="st">&quot;PACSIN1&quot;</span>, <span class="st">&quot;MEGF10&quot;</span>, <span class="st">&quot;COLEC12&quot;</span>, <span class="st">&quot;LSAMP&quot;</span>, <span class="st">&quot;PLCXD1&quot;</span>, <span class="st">&quot;MSLN&quot;</span>, <span class="st">&quot;ARHGEF11&quot;</span>, <span class="st">&quot;SIGLEC6&quot;</span>, <span class="st">&quot;KCNK17&quot;</span>, <span class="st">&quot;CLNK&quot;</span>, <span class="st">&quot;SHANK1&quot;</span>, <span class="st">&quot;ST18&quot;</span>, </span>
+<span id="cb18-59"><a href="figure-4.html#cb18-59" tabindex="-1"></a>             <span class="st">&quot;PTP4A1&quot;</span>, <span class="st">&quot;FKBP2&quot;</span>, <span class="st">&quot;LAMP5&quot;</span>, <span class="st">&quot;BOLA2B&quot;</span>, <span class="st">&quot;ALDOA&quot;</span>, <span class="st">&quot;HNMT&quot;</span>)</span>
+<span id="cb18-60"><a href="figure-4.html#cb18-60" tabindex="-1"></a></span>
+<span id="cb18-61"><a href="figure-4.html#cb18-61" tabindex="-1"></a>my_exp.prog <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(scAML.prog.anno<span class="sc">@</span>assays<span class="sc">$</span>RNA<span class="sc">@</span>data[my_idx82, idx.cells1], <span class="at">check.names =</span> F)</span>
+<span id="cb18-62"><a href="figure-4.html#cb18-62" tabindex="-1"></a>my_exp.O <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(scAML.O.anno<span class="sc">@</span>assays<span class="sc">$</span>RNA<span class="sc">@</span>data[my_idx34, idx.cells2], <span class="at">check.names =</span> F)</span>
+<span id="cb18-63"><a href="figure-4.html#cb18-63" tabindex="-1"></a></span>
+<span id="cb18-64"><a href="figure-4.html#cb18-64" tabindex="-1"></a></span>
+<span id="cb18-65"><a href="figure-4.html#cb18-65" tabindex="-1"></a><span class="fu">pdf</span>(<span class="fu">paste0</span>(out_dir, <span class="st">&quot;Fig4b.pdf&quot;</span>), <span class="at">width =</span> <span class="dv">10</span>, <span class="at">height =</span> <span class="dv">7</span>)</span>
+<span id="cb18-66"><a href="figure-4.html#cb18-66" tabindex="-1"></a>ht1_a <span class="ot">&lt;-</span> <span class="fu">Heatmap</span>(<span class="fu">t</span>(my_clin.prog[, my_idx1]), <span class="at">name =</span> <span class="st">&quot;group&quot;</span>,</span>
+<span id="cb18-67"><a href="figure-4.html#cb18-67" tabindex="-1"></a>          <span class="at">height =</span> <span class="fu">unit</span>(<span class="fl">1.5</span>, <span class="st">&quot;cm&quot;</span>),</span>
+<span id="cb18-68"><a href="figure-4.html#cb18-68" tabindex="-1"></a>          <span class="at">column_split =</span> my_clin.prog<span class="sc">$</span>my_split, <span class="at">column_title_rot =</span> <span class="dv">90</span>, </span>
+<span id="cb18-69"><a href="figure-4.html#cb18-69" tabindex="-1"></a>          <span class="at">use_raster =</span> T, <span class="at">raster_quality =</span> <span class="dv">5</span>, </span>
+<span id="cb18-70"><a href="figure-4.html#cb18-70" tabindex="-1"></a>          <span class="at">row_split =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>, <span class="at">row_gap =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">&quot;pt&quot;</span>),</span>
+<span id="cb18-71"><a href="figure-4.html#cb18-71" tabindex="-1"></a>          <span class="at">col =</span> my_colors,</span>
+<span id="cb18-72"><a href="figure-4.html#cb18-72" tabindex="-1"></a>          <span class="at">cluster_columns =</span> F, <span class="at">cluster_rows =</span> F, </span>
+<span id="cb18-73"><a href="figure-4.html#cb18-73" tabindex="-1"></a>          <span class="at">show_column_names =</span> F, </span>
+<span id="cb18-74"><a href="figure-4.html#cb18-74" tabindex="-1"></a>          <span class="at">row_names_gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">8</span>)</span>
+<span id="cb18-75"><a href="figure-4.html#cb18-75" tabindex="-1"></a>       )</span>
+<span id="cb18-76"><a href="figure-4.html#cb18-76" tabindex="-1"></a></span>
+<span id="cb18-77"><a href="figure-4.html#cb18-77" tabindex="-1"></a>ht2_a <span class="ot">&lt;-</span> <span class="fu">Heatmap</span>(<span class="fu">t</span>(my_clin.prog[, my_idx2]), <span class="at">name =</span> <span class="st">&quot;sig.score&quot;</span>,</span>
+<span id="cb18-78"><a href="figure-4.html#cb18-78" tabindex="-1"></a>          <span class="at">height =</span> <span class="fu">unit</span>(<span class="fl">1.5</span>, <span class="st">&quot;cm&quot;</span>),</span>
+<span id="cb18-79"><a href="figure-4.html#cb18-79" tabindex="-1"></a>          <span class="co"># column_split = my_clin.prog$my_split, column_title_rot = 90, </span></span>
+<span id="cb18-80"><a href="figure-4.html#cb18-80" tabindex="-1"></a>          <span class="at">use_raster =</span> T, <span class="at">raster_quality =</span> <span class="dv">5</span>, </span>
+<span id="cb18-81"><a href="figure-4.html#cb18-81" tabindex="-1"></a>          <span class="at">col =</span> circlize<span class="sc">::</span><span class="fu">colorRamp2</span>(<span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.1</span>, <span class="fl">0.6</span>), <span class="fu">c</span>(<span class="st">&quot;#FFFFFF&quot;</span>, <span class="st">&quot;#262626&quot;</span>), <span class="at">space =</span> <span class="st">&quot;RGB&quot;</span>),</span>
+<span id="cb18-82"><a href="figure-4.html#cb18-82" tabindex="-1"></a>          <span class="at">cluster_columns =</span> F, <span class="at">cluster_rows =</span> F, </span>
+<span id="cb18-83"><a href="figure-4.html#cb18-83" tabindex="-1"></a>          <span class="at">show_column_names =</span> F, </span>
+<span id="cb18-84"><a href="figure-4.html#cb18-84" tabindex="-1"></a>          <span class="at">row_names_gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">8</span>)</span>
+<span id="cb18-85"><a href="figure-4.html#cb18-85" tabindex="-1"></a>       )</span>
+<span id="cb18-86"><a href="figure-4.html#cb18-86" tabindex="-1"></a></span>
+<span id="cb18-87"><a href="figure-4.html#cb18-87" tabindex="-1"></a>ht3_a <span class="ot">&lt;-</span> <span class="fu">Heatmap</span>(<span class="fu">t</span>(<span class="fu">scale</span>(<span class="fu">t</span>(my_exp.prog))), <span class="at">name =</span> <span class="st">&quot;Z-score&quot;</span>,</span>
+<span id="cb18-88"><a href="figure-4.html#cb18-88" tabindex="-1"></a>          <span class="at">height =</span> <span class="fu">unit</span>(<span class="dv">10</span>, <span class="st">&quot;cm&quot;</span>),</span>
+<span id="cb18-89"><a href="figure-4.html#cb18-89" tabindex="-1"></a>          <span class="co"># column_split = my_clin.prog$my_split, column_title_rot = 90, </span></span>
+<span id="cb18-90"><a href="figure-4.html#cb18-90" tabindex="-1"></a>          <span class="at">use_raster =</span> T, <span class="at">raster_quality =</span> <span class="dv">5</span>, </span>
+<span id="cb18-91"><a href="figure-4.html#cb18-91" tabindex="-1"></a>          <span class="at">col =</span> circlize<span class="sc">::</span><span class="fu">colorRamp2</span>(<span class="fu">c</span>(<span class="sc">-</span><span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>), <span class="fu">c</span>(<span class="st">&quot;#0000FF&quot;</span>, <span class="st">&quot;#FFFFFF&quot;</span>, <span class="st">&quot;#FF0000&quot;</span>), <span class="at">space =</span> <span class="st">&quot;RGB&quot;</span>),</span>
+<span id="cb18-92"><a href="figure-4.html#cb18-92" tabindex="-1"></a>          <span class="at">cluster_columns =</span> F, <span class="at">cluster_rows =</span> F, </span>
+<span id="cb18-93"><a href="figure-4.html#cb18-93" tabindex="-1"></a>          <span class="at">show_column_names =</span> F, </span>
+<span id="cb18-94"><a href="figure-4.html#cb18-94" tabindex="-1"></a>          <span class="at">row_names_gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">3</span>)</span>
+<span id="cb18-95"><a href="figure-4.html#cb18-95" tabindex="-1"></a>       )</span>
+<span id="cb18-96"><a href="figure-4.html#cb18-96" tabindex="-1"></a>ht_list_a <span class="ot">=</span> ht1_a <span class="sc">%v%</span> ht2_a <span class="sc">%v%</span> ht3_a</span>
+<span id="cb18-97"><a href="figure-4.html#cb18-97" tabindex="-1"></a><span class="fu">draw</span>(ht_list_a)</span>
+<span id="cb18-98"><a href="figure-4.html#cb18-98" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+</div>
+<div id="c-heatmap-of-mature-like-cell-types" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> (c) Heatmap of mature-like cell types<a href="figure-4.html#c-heatmap-of-mature-like-cell-types" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="figure-4.html#cb19-1" tabindex="-1"></a><span class="fu">pdf</span>(<span class="fu">paste0</span>(out_dir, <span class="st">&quot;Fig4c.pdf&quot;</span>), <span class="at">width =</span> <span class="dv">7</span>, <span class="at">height =</span> <span class="dv">7</span>)</span>
+<span id="cb19-2"><a href="figure-4.html#cb19-2" tabindex="-1"></a>ht1_b <span class="ot">&lt;-</span> <span class="fu">Heatmap</span>(<span class="fu">t</span>(my_clin.O[, my_idx1]), <span class="at">name =</span> <span class="st">&quot;group&quot;</span>,</span>
+<span id="cb19-3"><a href="figure-4.html#cb19-3" tabindex="-1"></a>          <span class="at">height =</span> <span class="fu">unit</span>(<span class="fl">1.5</span>, <span class="st">&quot;cm&quot;</span>),</span>
+<span id="cb19-4"><a href="figure-4.html#cb19-4" tabindex="-1"></a>          <span class="at">column_split =</span> my_clin.O<span class="sc">$</span>my_split, <span class="at">column_title_rot =</span> <span class="dv">90</span>, </span>
+<span id="cb19-5"><a href="figure-4.html#cb19-5" tabindex="-1"></a>          <span class="at">use_raster =</span> T, <span class="at">raster_quality =</span> <span class="dv">5</span>, </span>
+<span id="cb19-6"><a href="figure-4.html#cb19-6" tabindex="-1"></a>          <span class="at">row_split =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>, <span class="at">row_gap =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">&quot;pt&quot;</span>),</span>
+<span id="cb19-7"><a href="figure-4.html#cb19-7" tabindex="-1"></a>          <span class="at">col =</span> my_colors,</span>
+<span id="cb19-8"><a href="figure-4.html#cb19-8" tabindex="-1"></a>          <span class="at">cluster_columns =</span> F, <span class="at">cluster_rows =</span> F, </span>
+<span id="cb19-9"><a href="figure-4.html#cb19-9" tabindex="-1"></a>          <span class="at">show_column_names =</span> F, </span>
+<span id="cb19-10"><a href="figure-4.html#cb19-10" tabindex="-1"></a>          <span class="at">row_names_gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">8</span>)</span>
+<span id="cb19-11"><a href="figure-4.html#cb19-11" tabindex="-1"></a>       )</span>
+<span id="cb19-12"><a href="figure-4.html#cb19-12" tabindex="-1"></a></span>
+<span id="cb19-13"><a href="figure-4.html#cb19-13" tabindex="-1"></a>ht2_b <span class="ot">&lt;-</span> <span class="fu">Heatmap</span>(<span class="fu">t</span>(my_clin.O[, my_idx2]), <span class="at">name =</span> <span class="st">&quot;sig.score&quot;</span>,</span>
+<span id="cb19-14"><a href="figure-4.html#cb19-14" tabindex="-1"></a>          <span class="at">height =</span> <span class="fu">unit</span>(<span class="fl">1.5</span>, <span class="st">&quot;cm&quot;</span>),</span>
+<span id="cb19-15"><a href="figure-4.html#cb19-15" tabindex="-1"></a>          <span class="co"># column_split = my_clin.O$my_split, column_title_rot = 90, </span></span>
+<span id="cb19-16"><a href="figure-4.html#cb19-16" tabindex="-1"></a>          <span class="at">use_raster =</span> T, <span class="at">raster_quality =</span> <span class="dv">5</span>, </span>
+<span id="cb19-17"><a href="figure-4.html#cb19-17" tabindex="-1"></a>          <span class="at">col =</span> circlize<span class="sc">::</span><span class="fu">colorRamp2</span>(<span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.1</span>, <span class="fl">0.6</span>), <span class="fu">c</span>(<span class="st">&quot;#FFFFFF&quot;</span>, <span class="st">&quot;#262626&quot;</span>), <span class="at">space =</span> <span class="st">&quot;RGB&quot;</span>),</span>
+<span id="cb19-18"><a href="figure-4.html#cb19-18" tabindex="-1"></a>          <span class="at">cluster_columns =</span> F, <span class="at">cluster_rows =</span> F, </span>
+<span id="cb19-19"><a href="figure-4.html#cb19-19" tabindex="-1"></a>          <span class="at">show_column_names =</span> F, </span>
+<span id="cb19-20"><a href="figure-4.html#cb19-20" tabindex="-1"></a>          <span class="at">row_names_gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">8</span>)</span>
+<span id="cb19-21"><a href="figure-4.html#cb19-21" tabindex="-1"></a>       )</span>
+<span id="cb19-22"><a href="figure-4.html#cb19-22" tabindex="-1"></a></span>
+<span id="cb19-23"><a href="figure-4.html#cb19-23" tabindex="-1"></a>ht3_b <span class="ot">&lt;-</span> <span class="fu">Heatmap</span>(<span class="fu">t</span>(<span class="fu">scale</span>(<span class="fu">t</span>(my_exp.O))), <span class="at">name =</span> <span class="st">&quot;Z-score&quot;</span>,</span>
+<span id="cb19-24"><a href="figure-4.html#cb19-24" tabindex="-1"></a>          <span class="at">height =</span> <span class="fu">unit</span>(<span class="dv">10</span>, <span class="st">&quot;cm&quot;</span>),</span>
+<span id="cb19-25"><a href="figure-4.html#cb19-25" tabindex="-1"></a>          <span class="co"># column_split = my_clin.O$my_split, column_title_rot = 90, </span></span>
+<span id="cb19-26"><a href="figure-4.html#cb19-26" tabindex="-1"></a>          <span class="at">use_raster =</span> T, <span class="at">raster_quality =</span> <span class="dv">5</span>, </span>
+<span id="cb19-27"><a href="figure-4.html#cb19-27" tabindex="-1"></a>          <span class="at">col =</span> circlize<span class="sc">::</span><span class="fu">colorRamp2</span>(<span class="fu">c</span>(<span class="sc">-</span><span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>), <span class="fu">c</span>(<span class="st">&quot;#0000FF&quot;</span>, <span class="st">&quot;#FFFFFF&quot;</span>, <span class="st">&quot;#FF0000&quot;</span>), <span class="at">space =</span> <span class="st">&quot;RGB&quot;</span>),</span>
+<span id="cb19-28"><a href="figure-4.html#cb19-28" tabindex="-1"></a>          <span class="at">cluster_columns =</span> F, <span class="at">cluster_rows =</span> F, </span>
+<span id="cb19-29"><a href="figure-4.html#cb19-29" tabindex="-1"></a>          <span class="at">show_column_names =</span> F, </span>
+<span id="cb19-30"><a href="figure-4.html#cb19-30" tabindex="-1"></a>          <span class="at">row_names_gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">5</span>)</span>
+<span id="cb19-31"><a href="figure-4.html#cb19-31" tabindex="-1"></a>       )</span>
+<span id="cb19-32"><a href="figure-4.html#cb19-32" tabindex="-1"></a>ht_list_b <span class="ot">=</span> ht1_b <span class="sc">%v%</span> ht2_b <span class="sc">%v%</span> ht3_b</span>
+<span id="cb19-33"><a href="figure-4.html#cb19-33" tabindex="-1"></a><span class="fu">draw</span>(ht_list_b)</span>
+<span id="cb19-34"><a href="figure-4.html#cb19-34" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+</div>
+<div id="d-distribution-of-fusion-positive-cells" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> (d) Distribution of fusion positive cells<a href="figure-4.html#d-distribution-of-fusion-positive-cells" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="figure-4.html#cb20-1" tabindex="-1"></a>res_final <span class="ot">&lt;-</span> <span class="fu">read_rds</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table2.res_final.347846.rds&quot;</span>))</span>
+<span id="cb20-2"><a href="figure-4.html#cb20-2" tabindex="-1"></a></span>
+<span id="cb20-3"><a href="figure-4.html#cb20-3" tabindex="-1"></a>anno_color <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;#73C8B4&quot;</span>, <span class="st">&quot;#E31A1C&quot;</span>, <span class="st">&quot;#A65628&quot;</span>, <span class="st">&quot;#FDBF6F&quot;</span>, <span class="st">&quot;#9970AB&quot;</span>, <span class="st">&quot;#C2A5CF&quot;</span>, <span class="st">&quot;#6BAED6&quot;</span>, <span class="st">&quot;#33A02C&quot;</span>, <span class="st">&quot;#FB8072&quot;</span>)</span>
+<span id="cb20-4"><a href="figure-4.html#cb20-4" tabindex="-1"></a>anno_name <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Progs&quot;</span>, <span class="st">&quot;Progs_Prolif&quot;</span>, <span class="st">&quot;Progs_BaEoMa&quot;</span>, <span class="st">&quot;Mono&quot;</span>, <span class="st">&quot;cDC&quot;</span>, <span class="st">&quot;pDC&quot;</span>, <span class="st">&quot;T.NK&quot;</span>, <span class="st">&quot;B&quot;</span>, <span class="st">&quot;Erythroid&quot;</span>)</span>
+<span id="cb20-5"><a href="figure-4.html#cb20-5" tabindex="-1"></a><span class="fu">names</span>(anno_color) <span class="ot">&lt;-</span> anno_name</span>
+<span id="cb20-6"><a href="figure-4.html#cb20-6" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="figure-4.html#cb20-7" tabindex="-1"></a><span class="do">## 1.fus Freq: in each sub cluster</span></span>
+<span id="cb20-8"><a href="figure-4.html#cb20-8" tabindex="-1"></a>df1 <span class="ot">&lt;-</span> res_final <span class="sc">%&gt;%</span> </span>
+<span id="cb20-9"><a href="figure-4.html#cb20-9" tabindex="-1"></a>          <span class="fu">filter</span>(<span class="sc">!</span>FAB <span class="sc">%in%</span> <span class="st">&quot;HC&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb20-10"><a href="figure-4.html#cb20-10" tabindex="-1"></a>          <span class="fu">group_by</span>(FAB, annoL1, SS.final_fus_group) <span class="sc">%&gt;%</span> <span class="fu">summarise</span>(<span class="at">N =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span></span>
+<span id="cb20-11"><a href="figure-4.html#cb20-11" tabindex="-1"></a>          <span class="fu">mutate</span>(<span class="at">Freq =</span> (N<span class="sc">/</span><span class="fu">sum</span>(N)), <span class="at">orig.ident =</span> <span class="st">&quot;Merged&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb20-12"><a href="figure-4.html#cb20-12" tabindex="-1"></a>          <span class="fu">filter</span>(SS.final_fus_group <span class="sc">%in%</span> <span class="st">&quot;Malignant&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb20-13"><a href="figure-4.html#cb20-13" tabindex="-1"></a>          dplyr<span class="sc">::</span><span class="fu">select</span>(FAB, orig.ident, annoL1, N, Freq) <span class="sc">%&gt;%</span> </span>
+<span id="cb20-14"><a href="figure-4.html#cb20-14" tabindex="-1"></a>          <span class="fu">mutate</span>(<span class="at">annoL1 =</span> <span class="fu">factor</span>(annoL1, <span class="at">levels =</span> my_c))</span>
+<span id="cb20-15"><a href="figure-4.html#cb20-15" tabindex="-1"></a></span>
+<span id="cb20-16"><a href="figure-4.html#cb20-16" tabindex="-1"></a>p1 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(df1, <span class="fu">aes</span>(<span class="at">x =</span> annoL1, <span class="at">y =</span> Freq, <span class="at">fill =</span> annoL1)) <span class="sc">+</span> <span class="fu">geom_col</span>(<span class="at">width =</span> <span class="fl">0.65</span>) <span class="sc">+</span> </span>
+<span id="cb20-17"><a href="figure-4.html#cb20-17" tabindex="-1"></a>        <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> scales<span class="sc">::</span><span class="fu">percent</span>(Freq, <span class="at">accuracy =</span> .<span class="dv">1</span>)), <span class="at">position =</span> <span class="st">&quot;stack&quot;</span>, <span class="at">vjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span> </span>
+<span id="cb20-18"><a href="figure-4.html#cb20-18" tabindex="-1"></a>        <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span> <span class="fu">theme_bw</span>() <span class="sc">+</span> </span>
+<span id="cb20-19"><a href="figure-4.html#cb20-19" tabindex="-1"></a>        <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> anno_color) <span class="sc">+</span></span>
+<span id="cb20-20"><a href="figure-4.html#cb20-20" tabindex="-1"></a>        <span class="fu">facet_grid</span>(<span class="sc">~</span> FAB, <span class="at">scales =</span> <span class="st">&quot;free_x&quot;</span>, <span class="at">space =</span> <span class="st">&quot;free&quot;</span>) <span class="sc">+</span> </span>
+<span id="cb20-21"><a href="figure-4.html#cb20-21" tabindex="-1"></a>        <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>, <span class="at">hjust =</span> <span class="dv">1</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>), </span>
+<span id="cb20-22"><a href="figure-4.html#cb20-22" tabindex="-1"></a>              <span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(), <span class="at">legend.position =</span> <span class="st">&quot;none&quot;</span>) <span class="sc">+</span> </span>
+<span id="cb20-23"><a href="figure-4.html#cb20-23" tabindex="-1"></a>        <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> <span class="fu">percent_format</span>(), <span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>)) <span class="sc">+</span> </span>
+<span id="cb20-24"><a href="figure-4.html#cb20-24" tabindex="-1"></a>        <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">&quot;Predicted Fus Proportions in Each Cluster&quot;</span>)</span>
+<span id="cb20-25"><a href="figure-4.html#cb20-25" tabindex="-1"></a></span>
+<span id="cb20-26"><a href="figure-4.html#cb20-26" tabindex="-1"></a><span class="fu">pdf</span>(<span class="fu">paste0</span>(out_dir, <span class="st">&quot;Fig4d.pdf&quot;</span>), <span class="at">width =</span> <span class="dv">6</span>, <span class="at">height =</span> <span class="dv">4</span>)</span>
+<span id="cb20-27"><a href="figure-4.html#cb20-27" tabindex="-1"></a>p1</span>
+<span id="cb20-28"><a href="figure-4.html#cb20-28" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+</div>
+<div id="e-scatter-plot-of-correlation" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> (e) Scatter plot of correlation<a href="figure-4.html#e-scatter-plot-of-correlation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="figure-4.html#cb21-1" tabindex="-1"></a>aml_clin <span class="ot">&lt;-</span> <span class="fu">read.xlsx</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;aml_clin.xlsx&quot;</span>), <span class="at">sheet =</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb21-2"><a href="figure-4.html#cb21-2" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(pred_fus_Freq) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(BM_blasts_FCS))</span>
+<span id="cb21-3"><a href="figure-4.html#cb21-3" tabindex="-1"></a></span>
+<span id="cb21-4"><a href="figure-4.html#cb21-4" tabindex="-1"></a>pc_3 <span class="ot">&lt;-</span> aml_clin <span class="sc">%&gt;%</span> </span>
+<span id="cb21-5"><a href="figure-4.html#cb21-5" tabindex="-1"></a>        <span class="fu">ggplot</span>(<span class="fu">aes</span>(pred_fus_Freq, BM_blasts)) <span class="sc">+</span> </span>
+<span id="cb21-6"><a href="figure-4.html#cb21-6" tabindex="-1"></a>        <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> FAB, <span class="at">shape =</span> FAB), <span class="at">size =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb21-7"><a href="figure-4.html#cb21-7" tabindex="-1"></a>        <span class="fu">geom_abline</span>(<span class="at">slope =</span> <span class="dv">1</span>) <span class="sc">+</span> </span>
+<span id="cb21-8"><a href="figure-4.html#cb21-8" tabindex="-1"></a>        <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">&quot;#F8766D&quot;</span>, <span class="st">&quot;#00BA38&quot;</span>, <span class="st">&quot;#619CFF&quot;</span>)) <span class="sc">+</span></span>
+<span id="cb21-9"><a href="figure-4.html#cb21-9" tabindex="-1"></a>        <span class="fu">scale_x_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">100</span>)) <span class="sc">+</span> <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">100</span>)) <span class="sc">+</span></span>
+<span id="cb21-10"><a href="figure-4.html#cb21-10" tabindex="-1"></a>        <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Predicted by signature scores (%)&quot;</span>, <span class="at">y =</span> <span class="st">&quot;BM blast final (%)&quot;</span>, <span class="at">title =</span> <span class="st">&quot;Fraction of malignant cells&quot;</span>) <span class="sc">+</span> </span>
+<span id="cb21-11"><a href="figure-4.html#cb21-11" tabindex="-1"></a>        <span class="fu">theme_bw</span>() <span class="sc">+</span> <span class="fu">theme</span>(<span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>)) <span class="sc">+</span> </span>
+<span id="cb21-12"><a href="figure-4.html#cb21-12" tabindex="-1"></a>        <span class="fu">stat_cor</span>(<span class="at">method =</span> <span class="st">&quot;spearman&quot;</span>, <span class="at">label.x =</span> <span class="dv">3</span>, <span class="at">label.y =</span> <span class="dv">90</span>)</span>
+<span id="cb21-13"><a href="figure-4.html#cb21-13" tabindex="-1"></a></span>
+<span id="cb21-14"><a href="figure-4.html#cb21-14" tabindex="-1"></a><span class="fu">pdf</span>(<span class="fu">paste0</span>(out_dir, <span class="st">&quot;Fig4e.pdf&quot;</span>), <span class="at">width =</span> <span class="dv">5</span>, <span class="at">height =</span> <span class="dv">4</span>)</span>
+<span id="cb21-15"><a href="figure-4.html#cb21-15" tabindex="-1"></a>pc_3</span>
+<span id="cb21-16"><a href="figure-4.html#cb21-16" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="figure-3.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="figure-5.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

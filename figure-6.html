@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>6 Figure 6 | scAML Project</title>
+  <meta name="description" content="6 Figure 6 | scAML Project" />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="6 Figure 6 | scAML Project" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="6 Figure 6 | scAML Project" />
+  
+  
+  
+
+<meta name="author" content="Niu Qiao" />
+
+
+<meta name="date" content="2024-10-30" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="figure-5.html"/>
+<link rel="next" href="figure-7.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">scAML Booklet</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Figure 1</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#b-umap-distribution-across-aml"><i class="fa fa-check"></i><b>1.1</b> (b) UMAP distribution across AML</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#c-dotplot-of-marker-genes"><i class="fa fa-check"></i><b>1.2</b> (c) Dotplot of marker genes</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#d-bar-charts"><i class="fa fa-check"></i><b>1.3</b> (d) Bar charts</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#e-distribution-of-fusion-positive-cells"><i class="fa fa-check"></i><b>1.4</b> (e) Distribution of fusion positive cells</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#f-scatter-plots"><i class="fa fa-check"></i><b>1.5</b> (f) Scatter plots</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="figure-2.html"><a href="figure-2.html"><i class="fa fa-check"></i><b>2</b> Figure 2</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="figure-2.html"><a href="figure-2.html#b-umap-of-hc"><i class="fa fa-check"></i><b>2.1</b> (b) UMAP of HC</a></li>
+<li class="chapter" data-level="2.2" data-path="figure-2.html"><a href="figure-2.html#c-umap-distribution-across-aml"><i class="fa fa-check"></i><b>2.2</b> (c) UMAP distribution across AML</a></li>
+<li class="chapter" data-level="2.3" data-path="figure-2.html"><a href="figure-2.html#d-bar-charts-1"><i class="fa fa-check"></i><b>2.3</b> (d) Bar charts</a></li>
+<li class="chapter" data-level="2.4" data-path="figure-2.html"><a href="figure-2.html#e-fusion-distribution"><i class="fa fa-check"></i><b>2.4</b> (e) Fusion distribution</a></li>
+<li class="chapter" data-level="2.5" data-path="figure-2.html"><a href="figure-2.html#f-pseudotime-umap"><i class="fa fa-check"></i><b>2.5</b> (f) Pseudotime UMAP</a></li>
+<li class="chapter" data-level="2.6" data-path="figure-2.html"><a href="figure-2.html#g-ridge-plot-of-pseudotime"><i class="fa fa-check"></i><b>2.6</b> (g) Ridge plot of pseudotime</a></li>
+<li class="chapter" data-level="2.7" data-path="figure-2.html"><a href="figure-2.html#h-dot-plots-of-signature-scores"><i class="fa fa-check"></i><b>2.7</b> (h) Dot plots of signature scores</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="figure-3.html"><a href="figure-3.html"><i class="fa fa-check"></i><b>3</b> Figure 3</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="figure-3.html"><a href="figure-3.html#b-umap-distribution"><i class="fa fa-check"></i><b>3.1</b> (b) UMAP distribution</a></li>
+<li class="chapter" data-level="3.2" data-path="figure-3.html"><a href="figure-3.html#c-fusion-distribution"><i class="fa fa-check"></i><b>3.2</b> (c) Fusion distribution</a></li>
+<li class="chapter" data-level="3.3" data-path="figure-3.html"><a href="figure-3.html#d-bar-charts-2"><i class="fa fa-check"></i><b>3.3</b> (d) Bar charts</a></li>
+<li class="chapter" data-level="3.4" data-path="figure-3.html"><a href="figure-3.html#e-dot-plots-of-signature-scores"><i class="fa fa-check"></i><b>3.4</b> (e) Dot plots of signature scores</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="figure-4.html"><a href="figure-4.html"><i class="fa fa-check"></i><b>4</b> Figure 4</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="figure-4.html"><a href="figure-4.html#b-heatmap-of-primitive-cell-types"><i class="fa fa-check"></i><b>4.1</b> (b) Heatmap of primitive cell types</a></li>
+<li class="chapter" data-level="4.2" data-path="figure-4.html"><a href="figure-4.html#c-heatmap-of-mature-like-cell-types"><i class="fa fa-check"></i><b>4.2</b> (c) Heatmap of mature-like cell types</a></li>
+<li class="chapter" data-level="4.3" data-path="figure-4.html"><a href="figure-4.html#d-distribution-of-fusion-positive-cells"><i class="fa fa-check"></i><b>4.3</b> (d) Distribution of fusion positive cells</a></li>
+<li class="chapter" data-level="4.4" data-path="figure-4.html"><a href="figure-4.html#e-scatter-plot-of-correlation"><i class="fa fa-check"></i><b>4.4</b> (e) Scatter plot of correlation</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="figure-5.html"><a href="figure-5.html"><i class="fa fa-check"></i><b>5</b> Figure 5</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="figure-5.html"><a href="figure-5.html#a-bar-charts"><i class="fa fa-check"></i><b>5.1</b> (a) Bar charts</a></li>
+<li class="chapter" data-level="5.2" data-path="figure-5.html"><a href="figure-5.html#b-dot-plots-of-gsea-results"><i class="fa fa-check"></i><b>5.2</b> (b) Dot plots of GSEA results</a></li>
+<li class="chapter" data-level="5.3" data-path="figure-5.html"><a href="figure-5.html#c-e-gsea-plots-across-aml"><i class="fa fa-check"></i><b>5.3</b> (c-e) GSEA plots across AML</a></li>
+<li class="chapter" data-level="5.4" data-path="figure-5.html"><a href="figure-5.html#g-dot-plot-in-tnk-cells"><i class="fa fa-check"></i><b>5.4</b> (g) Dot plot in T/NK cells</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="figure-6.html"><a href="figure-6.html"><i class="fa fa-check"></i><b>6</b> Figure 6</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="figure-6.html"><a href="figure-6.html#circle-plots"><i class="fa fa-check"></i><b>6.1</b> Circle plots</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="figure-7.html"><a href="figure-7.html"><i class="fa fa-check"></i><b>7</b> Figure 7</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="figure-7.html"><a href="figure-7.html#b-umap-by-samples"><i class="fa fa-check"></i><b>7.1</b> (b) UMAP by samples</a></li>
+<li class="chapter" data-level="7.2" data-path="figure-7.html"><a href="figure-7.html#c-d-umap-by-annol1-annol2"><i class="fa fa-check"></i><b>7.2</b> (c-d) UMAP by annoL1 &amp; annoL2</a></li>
+<li class="chapter" data-level="7.3" data-path="figure-7.html"><a href="figure-7.html#e-alluvial-diagram-of-relapse-group"><i class="fa fa-check"></i><b>7.3</b> (e) Alluvial diagram of relapse group</a></li>
+<li class="chapter" data-level="7.4" data-path="figure-7.html"><a href="figure-7.html#f-alluvial-diagram-of-lcr-group"><i class="fa fa-check"></i><b>7.4</b> (f) Alluvial diagram of LCR group</a></li>
+<li class="chapter" data-level="7.5" data-path="figure-7.html"><a href="figure-7.html#g-h-umap-by-stage"><i class="fa fa-check"></i><b>7.5</b> (g-h) UMAP by stage</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">scAML Project</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="figure-6" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">6</span> Figure 6<a href="figure-6.html#figure-6" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><img src="ref/Figure6.jpg" width="100%" style="display: block; margin: auto;" />
+<strong>Fig.6 | Immune suppression induced by ligand-receptor interactions between immature malignant-like blasts and T/NK cells.</strong></p>
+<p>Circle plots of the predicted ligand-receptor interactions between malignant-like blasts (blasts, proliferating blasts, and BaEoMa) and various immune lymphocytes, including malignant-like (upper panel) CD4 T cells, CD8 T cells, and NK cells, as well as normal-like (bottom panel) immune lymphocytes in t(8;21), t(15;17), and inv(16) AML subtypes. Red, blue, and gray arcs represent suppressive, activating, and unknown interactions, respectively.</p>
+<div id="circle-plots" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> Circle plots<a href="figure-6.html#circle-plots" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="figure-6.html#cb26-1" tabindex="-1"></a>g_name <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;M2AE.M_M&quot;</span>, <span class="st">&quot;M3PR.M_M&quot;</span>, <span class="st">&quot;M4CM.M_M&quot;</span>, <span class="st">&quot;M2AE.M_U&quot;</span>, <span class="st">&quot;M3PR.M_U&quot;</span>, <span class="st">&quot;M4CM.M_U&quot;</span>)</span>
+<span id="cb26-2"><a href="figure-6.html#cb26-2" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="figure-6.html#cb26-3" tabindex="-1"></a><span class="cf">for</span> (g <span class="cf">in</span> g_name){</span>
+<span id="cb26-4"><a href="figure-6.html#cb26-4" tabindex="-1"></a>  connect <span class="ot">&lt;-</span> <span class="fu">read.xlsx</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table.cellchat.lr_order.xlsx&quot;</span>), <span class="at">sheet =</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb26-5"><a href="figure-6.html#cb26-5" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(<span class="fu">eval</span>(<span class="fu">parse</span>(<span class="at">text =</span> g)))) <span class="sc">%&gt;%</span> dplyr<span class="sc">::</span><span class="fu">select</span>(ligand, receptor, color) <span class="sc">%&gt;%</span> <span class="fu">distinct</span>()</span>
+<span id="cb26-6"><a href="figure-6.html#cb26-6" tabindex="-1"></a>  </span>
+<span id="cb26-7"><a href="figure-6.html#cb26-7" tabindex="-1"></a>  arr.col <span class="ot">=</span> <span class="fu">read.xlsx</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table.cellchat.lr_order.xlsx&quot;</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb26-8"><a href="figure-6.html#cb26-8" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(<span class="fu">eval</span>(<span class="fu">parse</span>(<span class="at">text =</span> g)))) <span class="sc">%&gt;%</span> dplyr<span class="sc">::</span><span class="fu">select</span>(ligand, receptor, color) <span class="sc">%&gt;%</span> <span class="fu">distinct</span>()</span>
+<span id="cb26-9"><a href="figure-6.html#cb26-9" tabindex="-1"></a>  </span>
+<span id="cb26-10"><a href="figure-6.html#cb26-10" tabindex="-1"></a>  g_len1 <span class="ot">&lt;-</span> <span class="fu">read.xlsx</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table.cellchat.lr_order.xlsx&quot;</span>), <span class="at">sheet =</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb26-11"><a href="figure-6.html#cb26-11" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(<span class="fu">eval</span>(<span class="fu">parse</span>(<span class="at">text =</span> g)))) <span class="sc">%&gt;%</span> <span class="fu">pull</span>(ligand_2) <span class="sc">%&gt;%</span> <span class="fu">unique</span>() <span class="sc">%&gt;%</span> <span class="fu">length</span>()</span>
+<span id="cb26-12"><a href="figure-6.html#cb26-12" tabindex="-1"></a>  g_len2 <span class="ot">&lt;-</span> <span class="fu">read.xlsx</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table.cellchat.lr_order.xlsx&quot;</span>), <span class="at">sheet =</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb26-13"><a href="figure-6.html#cb26-13" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(<span class="fu">eval</span>(<span class="fu">parse</span>(<span class="at">text =</span> g)))) <span class="sc">%&gt;%</span> <span class="fu">filter</span>(target <span class="sc">%in%</span> <span class="st">&quot;CD4T&quot;</span>) <span class="sc">%&gt;%</span> <span class="fu">pull</span>(receptor_2) <span class="sc">%&gt;%</span> <span class="fu">unique</span>() <span class="sc">%&gt;%</span> <span class="fu">length</span>()</span>
+<span id="cb26-14"><a href="figure-6.html#cb26-14" tabindex="-1"></a>  g_len3 <span class="ot">&lt;-</span> <span class="fu">read.xlsx</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table.cellchat.lr_order.xlsx&quot;</span>), <span class="at">sheet =</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb26-15"><a href="figure-6.html#cb26-15" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(<span class="fu">eval</span>(<span class="fu">parse</span>(<span class="at">text =</span> g)))) <span class="sc">%&gt;%</span> <span class="fu">filter</span>(target <span class="sc">%in%</span> <span class="st">&quot;CD8T&quot;</span>) <span class="sc">%&gt;%</span> <span class="fu">pull</span>(receptor_2) <span class="sc">%&gt;%</span> <span class="fu">unique</span>() <span class="sc">%&gt;%</span> <span class="fu">length</span>()</span>
+<span id="cb26-16"><a href="figure-6.html#cb26-16" tabindex="-1"></a>  g_len4 <span class="ot">&lt;-</span> <span class="fu">read.xlsx</span>(<span class="fu">paste0</span>(in_dir, <span class="st">&quot;Table.cellchat.lr_order.xlsx&quot;</span>), <span class="at">sheet =</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb26-17"><a href="figure-6.html#cb26-17" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(<span class="fu">eval</span>(<span class="fu">parse</span>(<span class="at">text =</span> g)))) <span class="sc">%&gt;%</span> <span class="fu">filter</span>(target <span class="sc">%in%</span> <span class="st">&quot;NK&quot;</span>) <span class="sc">%&gt;%</span> <span class="fu">pull</span>(receptor_2) <span class="sc">%&gt;%</span> <span class="fu">unique</span>() <span class="sc">%&gt;%</span> <span class="fu">length</span>()</span>
+<span id="cb26-18"><a href="figure-6.html#cb26-18" tabindex="-1"></a>  </span>
+<span id="cb26-19"><a href="figure-6.html#cb26-19" tabindex="-1"></a>  </span>
+<span id="cb26-20"><a href="figure-6.html#cb26-20" tabindex="-1"></a>  <span class="fu">pdf</span>(<span class="fu">paste0</span>(out_dir, <span class="st">&quot;Fig6&quot;</span>, g, <span class="st">&quot;.lr.pdf&quot;</span>), <span class="at">width =</span> <span class="dv">4</span>, <span class="at">height =</span> <span class="dv">4</span>)</span>
+<span id="cb26-21"><a href="figure-6.html#cb26-21" tabindex="-1"></a>  <span class="co"># parameters</span></span>
+<span id="cb26-22"><a href="figure-6.html#cb26-22" tabindex="-1"></a>  <span class="fu">circos.clear</span>()</span>
+<span id="cb26-23"><a href="figure-6.html#cb26-23" tabindex="-1"></a>  <span class="fu">circos.par</span>(<span class="at">start.degree =</span> <span class="dv">160</span>,</span>
+<span id="cb26-24"><a href="figure-6.html#cb26-24" tabindex="-1"></a>             <span class="at">gap.after =</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>, g_len1 <span class="sc">-</span> <span class="dv">1</span>), <span class="dv">16</span>, <span class="fu">rep</span>(<span class="dv">1</span>, g_len2 <span class="sc">-</span> <span class="dv">1</span>), <span class="dv">8</span>, <span class="fu">rep</span>(<span class="dv">1</span>, g_len3 <span class="sc">-</span> <span class="dv">1</span>), <span class="dv">8</span>, <span class="fu">rep</span>(<span class="dv">1</span>, g_len4 <span class="sc">-</span> <span class="dv">1</span>), <span class="dv">16</span>),</span>
+<span id="cb26-25"><a href="figure-6.html#cb26-25" tabindex="-1"></a>             <span class="at">track.margin =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">0.3</span>), <span class="at">points.overflow.warning =</span> F)</span>
+<span id="cb26-26"><a href="figure-6.html#cb26-26" tabindex="-1"></a>  <span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>))</span>
+<span id="cb26-27"><a href="figure-6.html#cb26-27" tabindex="-1"></a>  </span>
+<span id="cb26-28"><a href="figure-6.html#cb26-28" tabindex="-1"></a>  <span class="co"># color palette</span></span>
+<span id="cb26-29"><a href="figure-6.html#cb26-29" tabindex="-1"></a>  k <span class="ot">&lt;-</span> <span class="fu">length</span>(<span class="fu">unique</span>(<span class="fu">c</span>(connect<span class="sc">$</span>ligand, connect<span class="sc">$</span>receptor)))</span>
+<span id="cb26-30"><a href="figure-6.html#cb26-30" tabindex="-1"></a>  n <span class="ot">&lt;-</span> <span class="fu">length</span>(<span class="fu">unique</span>(connect<span class="sc">$</span>ligand)) <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb26-31"><a href="figure-6.html#cb26-31" tabindex="-1"></a> </span>
+<span id="cb26-32"><a href="figure-6.html#cb26-32" tabindex="-1"></a>  mycolor <span class="ot">&lt;-</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="st">&quot;#440154&quot;</span>, <span class="st">&quot;#8FD744&quot;</span>, <span class="st">&quot;#C7E020&quot;</span>, <span class="st">&quot;#FDE725&quot;</span>), <span class="fu">c</span>(g_len1, g_len2, g_len3, g_len4))</span>
+<span id="cb26-33"><a href="figure-6.html#cb26-33" tabindex="-1"></a>  </span>
+<span id="cb26-34"><a href="figure-6.html#cb26-34" tabindex="-1"></a>  </span>
+<span id="cb26-35"><a href="figure-6.html#cb26-35" tabindex="-1"></a>  myorder <span class="ot">&lt;-</span> <span class="fu">c</span>(connect<span class="sc">$</span>ligand, connect<span class="sc">$</span>receptor) <span class="sc">%&gt;%</span> <span class="fu">unique</span>()</span>
+<span id="cb26-36"><a href="figure-6.html#cb26-36" tabindex="-1"></a>  </span>
+<span id="cb26-37"><a href="figure-6.html#cb26-37" tabindex="-1"></a>  </span>
+<span id="cb26-38"><a href="figure-6.html#cb26-38" tabindex="-1"></a>  <span class="co"># Base plot</span></span>
+<span id="cb26-39"><a href="figure-6.html#cb26-39" tabindex="-1"></a>  <span class="fu">chordDiagram</span>(<span class="at">x =</span> connect[, <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>], <span class="at">grid.col =</span> mycolor, <span class="at">col =</span> <span class="fu">c</span>(<span class="st">&quot;white&quot;</span>), </span>
+<span id="cb26-40"><a href="figure-6.html#cb26-40" tabindex="-1"></a>               <span class="at">order =</span> myorder,</span>
+<span id="cb26-41"><a href="figure-6.html#cb26-41" tabindex="-1"></a>               <span class="at">transparency =</span> <span class="fl">0.9</span>,</span>
+<span id="cb26-42"><a href="figure-6.html#cb26-42" tabindex="-1"></a>               <span class="at">directional =</span> <span class="dv">1</span>, <span class="at">direction.type =</span> <span class="fu">c</span>(<span class="st">&quot;arrows&quot;</span>, <span class="st">&quot;diffHeight&quot;</span>), <span class="at">diffHeight =</span> <span class="sc">-</span><span class="fl">0.02</span>, </span>
+<span id="cb26-43"><a href="figure-6.html#cb26-43" tabindex="-1"></a>               <span class="at">annotationTrack =</span> <span class="st">&quot;grid&quot;</span>, <span class="at">annotationTrackHeight =</span> <span class="fu">c</span>(<span class="fl">0.01</span>, <span class="fl">0.1</span>),</span>
+<span id="cb26-44"><a href="figure-6.html#cb26-44" tabindex="-1"></a>               <span class="co"># link.arr.type = &quot;big.arrow&quot;, </span></span>
+<span id="cb26-45"><a href="figure-6.html#cb26-45" tabindex="-1"></a>               <span class="at">link.arr.length =</span> <span class="fl">0.2</span>, </span>
+<span id="cb26-46"><a href="figure-6.html#cb26-46" tabindex="-1"></a>               <span class="at">link.arr.col =</span> arr.col,</span>
+<span id="cb26-47"><a href="figure-6.html#cb26-47" tabindex="-1"></a>               <span class="at">link.sort =</span> T, <span class="at">link.largest.ontop =</span> T,</span>
+<span id="cb26-48"><a href="figure-6.html#cb26-48" tabindex="-1"></a>               <span class="at">preAllocateTracks =</span> <span class="fu">list</span>(<span class="at">track.height =</span> <span class="fu">mm_h</span>(<span class="dv">2</span>), <span class="at">track.margin =</span> <span class="fu">c</span>(<span class="fu">mm_h</span>(<span class="dv">2</span>), <span class="dv">0</span>))</span>
+<span id="cb26-49"><a href="figure-6.html#cb26-49" tabindex="-1"></a>               )</span>
+<span id="cb26-50"><a href="figure-6.html#cb26-50" tabindex="-1"></a>  <span class="co"># Add text and axis</span></span>
+<span id="cb26-51"><a href="figure-6.html#cb26-51" tabindex="-1"></a>  <span class="fu">circos.trackPlotRegion</span>(</span>
+<span id="cb26-52"><a href="figure-6.html#cb26-52" tabindex="-1"></a>    <span class="at">track.index =</span> <span class="dv">1</span>, <span class="at">bg.border =</span> <span class="cn">NA</span>,</span>
+<span id="cb26-53"><a href="figure-6.html#cb26-53" tabindex="-1"></a>    <span class="at">panel.fun =</span> <span class="cf">function</span>(x, y) {</span>
+<span id="cb26-54"><a href="figure-6.html#cb26-54" tabindex="-1"></a>      xlim <span class="ot">=</span> <span class="fu">get.cell.meta.data</span>(<span class="st">&quot;xlim&quot;</span>)</span>
+<span id="cb26-55"><a href="figure-6.html#cb26-55" tabindex="-1"></a>      ylim <span class="ot">=</span> <span class="fu">get.cell.meta.data</span>(<span class="st">&quot;ylim&quot;</span>)</span>
+<span id="cb26-56"><a href="figure-6.html#cb26-56" tabindex="-1"></a>      sector.index <span class="ot">=</span> <span class="fu">get.cell.meta.data</span>(<span class="st">&quot;sector.index&quot;</span>)</span>
+<span id="cb26-57"><a href="figure-6.html#cb26-57" tabindex="-1"></a>      </span>
+<span id="cb26-58"><a href="figure-6.html#cb26-58" tabindex="-1"></a>      <span class="co"># Add names to the sector.</span></span>
+<span id="cb26-59"><a href="figure-6.html#cb26-59" tabindex="-1"></a>      <span class="fu">circos.text</span>(<span class="at">x =</span> <span class="fu">mean</span>(xlim) <span class="sc">+</span> <span class="fl">0.25</span>, <span class="at">y =</span> <span class="sc">-</span><span class="dv">8</span>, <span class="at">adj =</span> <span class="sc">-</span><span class="fl">0.05</span>,</span>
+<span id="cb26-60"><a href="figure-6.html#cb26-60" tabindex="-1"></a>                  <span class="at">labels =</span> sector.index, <span class="at">facing =</span> <span class="st">&quot;clockwise&quot;</span>, <span class="at">cex =</span> <span class="fl">0.7</span>, <span class="at">niceFacing =</span> T)</span>
+<span id="cb26-61"><a href="figure-6.html#cb26-61" tabindex="-1"></a>     }</span>
+<span id="cb26-62"><a href="figure-6.html#cb26-62" tabindex="-1"></a>  )</span>
+<span id="cb26-63"><a href="figure-6.html#cb26-63" tabindex="-1"></a>  </span>
+<span id="cb26-64"><a href="figure-6.html#cb26-64" tabindex="-1"></a>  <span class="do">## # Add group info</span></span>
+<span id="cb26-65"><a href="figure-6.html#cb26-65" tabindex="-1"></a>  brand <span class="ot">&lt;-</span> <span class="fu">setNames</span>(<span class="fu">unlist</span>(<span class="fu">lapply</span>(myorder, <span class="cf">function</span>(x) <span class="fu">unlist</span>(<span class="fu">str_split</span>(x, <span class="st">&quot;_&quot;</span>))[<span class="dv">1</span>])), myorder)</span>
+<span id="cb26-66"><a href="figure-6.html#cb26-66" tabindex="-1"></a>  brand_color <span class="ot">&lt;-</span><span class="fu">setNames</span>(<span class="fu">c</span>(<span class="st">&quot;#73C8B4&quot;</span>, <span class="st">&quot;#1F78B4&quot;</span>, <span class="st">&quot;#B2DF8A&quot;</span>, <span class="st">&quot;#FF77F8&quot;</span>), <span class="fu">c</span>(<span class="st">&quot;Progs&quot;</span>, <span class="st">&quot;CD4T&quot;</span>, <span class="st">&quot;CD8T&quot;</span>, <span class="st">&quot;NK&quot;</span>))</span>
+<span id="cb26-67"><a href="figure-6.html#cb26-67" tabindex="-1"></a>  </span>
+<span id="cb26-68"><a href="figure-6.html#cb26-68" tabindex="-1"></a>  <span class="cf">for</span>(b <span class="cf">in</span> <span class="fu">unique</span>(brand)) {</span>
+<span id="cb26-69"><a href="figure-6.html#cb26-69" tabindex="-1"></a>    model <span class="ot">=</span> <span class="fu">names</span>(brand[brand <span class="sc">==</span> b])</span>
+<span id="cb26-70"><a href="figure-6.html#cb26-70" tabindex="-1"></a>    <span class="fu">highlight.sector</span>(<span class="at">sector.index =</span> model, <span class="at">track.index =</span> <span class="dv">1</span>, <span class="at">col =</span> brand_color[b], <span class="at">padding =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.7</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>),</span>
+<span id="cb26-71"><a href="figure-6.html#cb26-71" tabindex="-1"></a>                     <span class="at">text =</span> b, <span class="at">text.vjust =</span> <span class="sc">-</span><span class="fl">0.5</span>, <span class="at">niceFacing =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb26-72"><a href="figure-6.html#cb26-72" tabindex="-1"></a>  }</span>
+<span id="cb26-73"><a href="figure-6.html#cb26-73" tabindex="-1"></a>  </span>
+<span id="cb26-74"><a href="figure-6.html#cb26-74" tabindex="-1"></a>  <span class="fu">dev.off</span>()</span>
+<span id="cb26-75"><a href="figure-6.html#cb26-75" tabindex="-1"></a>}</span></code></pre></div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="figure-5.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="figure-7.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
